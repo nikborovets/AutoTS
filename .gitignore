@@ -121,6 +121,6 @@ temp*.py
 # ignore in root but not in subdirectories
 /*.zip
 /*.gz
-/*.png
-/*.csv
+# /*.png
+# /*.csv
 /*.pickle
