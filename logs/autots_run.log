@@ -1,0 +1,1369 @@
+2025-06-14 20:54:06 [INFO] - Система логирования настроена.
+2025-06-14 20:54:06 [INFO] - 🚀 Этап 2: Тонкая настройка моделей из шаблона...
+2025-06-14 20:54:06 [INFO] - 
+
+==================================================
+2025-06-14 20:54:06 [INFO] - ⚙️  Запускаю тонкую настройку лучших моделей из шаблона...
+2025-06-14 20:54:06 [INFO] - 📄 Шаблон: prometheus_autots_template.csv
+2025-06-14 20:54:06 [INFO] - ==================================================
+
+2025-06-14 20:54:06 [INFO] - ✅ Для тюнинга загружено 90643 записей
+2025-06-14 20:54:06 [INFO] - 🤖 Инициализирую AutoTS для тонкой настройки...
+2025-06-14 20:54:07 [INFO] - Импортирую модели из prometheus_autots_template.csv для тонкой настройки...
+2025-06-14 20:54:07 [ERROR] - ❌ Не удалось импортировать шаблон. Похоже, метод import_template вернул ошибку.
+2025-06-14 20:54:07 [ERROR] - Пожалуйста, проверьте файл prometheus_autots_template.csv на отсутствие пустых строк в конце.
+2025-06-14 20:54:07 [ERROR] - ❌ Ошибка: method must be 'addon' or 'only'
+Traceback (most recent call last):
+  File "/home/borovets.av/kolya/AutoTS/prometheus_autots_integration.py", line 275, in main
+    run_finetuning(
+  File "/home/borovets.av/kolya/AutoTS/prometheus_autots_integration.py", line 373, in run_finetuning
+    raise model_after_import
+ValueError: method must be 'addon' or 'only'
+2025-06-14 20:55:04 [INFO] - Система логирования настроена.
+2025-06-14 20:55:04 [INFO] - 🚀 Этап 2: Тонкая настройка моделей из шаблона...
+2025-06-14 20:55:04 [INFO] - 
+
+==================================================
+2025-06-14 20:55:04 [INFO] - ⚙️  Запускаю тонкую настройку лучших моделей из шаблона...
+2025-06-14 20:55:04 [INFO] - 📄 Шаблон: prometheus_autots_template.csv
+2025-06-14 20:55:04 [INFO] - ==================================================
+
+2025-06-14 20:55:04 [INFO] - ✅ Для тюнинга загружено 90643 записей
+2025-06-14 20:55:04 [INFO] - 🤖 Инициализирую AutoTS для тонкой настройки...
+2025-06-14 20:55:04 [INFO] - Импортирую модели из prometheus_autots_template.csv для тонкой настройки...
+2025-06-14 20:55:04 [INFO] - 🏋️ Начинаю обучение (это может занять больше времени, чем первый прогон)...
+2025-06-14 21:00:16 [INFO] - Система логирования настроена.
+2025-06-14 21:00:16 [INFO] - 🚀 Этап 2: Тонкая настройка моделей из шаблона...
+2025-06-14 21:00:16 [INFO] - 
+
+==================================================
+2025-06-14 21:00:16 [INFO] - ⚙️  Запускаю тонкую настройку лучших моделей из шаблона...
+2025-06-14 21:00:16 [INFO] - 📄 Шаблон: prometheus_autots_template.csv
+2025-06-14 21:00:16 [INFO] - ==================================================
+
+2025-06-14 21:00:16 [INFO] - ✅ Для тюнинга загружено 90643 записей
+2025-06-14 21:00:16 [INFO] - 🤖 Инициализирую AutoTS для тонкой настройки...
+2025-06-14 21:00:16 [INFO] - Импортирую модели из prometheus_autots_template.csv для тонкой настройки...
+2025-06-14 21:00:16 [INFO] - 🏋️ Начинаю обучение (это может занять больше времени, чем первый прогон)...
+2025-06-14 21:00:17 [INFO] - Data frequency is: 15s, used frequency is: 15s
+Model Number: 1 with model SectionalMotif in generation 0 of 20
+2025-06-14 21:00:17 [INFO] - Model Number: 2 with model SectionalMotif in generation 0 of 20
+2025-06-14 21:00:17 [INFO] - Model Number: 3 with model SectionalMotif in generation 0 of 20
+2025-06-14 21:04:15 [INFO] - Model Number: 4 with model GLS in generation 0 of 20
+2025-06-14 21:04:23 [INFO] - Model Number: 5 with model GLS in generation 0 of 20
+2025-06-14 21:04:23 [INFO] - Model Number: 6 with model LastValueNaive in generation 0 of 20
+2025-06-14 21:04:24 [INFO] - Model Number: 7 with model SeasonalityMotif in generation 0 of 20
+2025-06-14 21:04:25 [INFO] - New Generation: 1 of 20
+Model Number: 8 with model SectionalMotif in generation 1 of 20
+2025-06-14 21:04:25 [INFO] - Model Number: 9 with model SectionalMotif in generation 1 of 20
+2025-06-14 21:04:25 [INFO] - Model Number: 10 with model SectionalMotif in generation 1 of 20
+2025-06-14 21:53:24 [INFO] - Model Number: 11 with model SectionalMotif in generation 1 of 20
+2025-06-14 21:53:29 [INFO] - Model Number: 12 with model SectionalMotif in generation 1 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params rolling_mean {'0': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'rolling_zscore', 'method_params': {'distribution': 'cauchy', 'alpha': 0.05, 'rolling_periods': 300, 'center': False}, 'fillna': 'ffill', 'transform_dict': {'transformations': {'0': 'DatepartRegression'}, 'transformation_params': {'0': {'datepart_method': 'simple_3', 'regression_model': {'model': 'ElasticNet', 'model_params': {}}}}}, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'regression', 'regression_params': {}}, '1': {}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 12 in generation 1: SectionalMotif
+Model Number: 13 with model SectionalMotif in generation 1 of 20
+2025-06-14 21:54:18 [INFO] - Model Number: 14 with model SectionalMotif in generation 1 of 20
+2025-06-14 21:54:18 [INFO] - Model Number: 15 with model SectionalMotif in generation 1 of 20
+2025-06-14 21:54:18 [INFO] - Model Number: 16 with model SectionalMotif in generation 1 of 20
+2025-06-14 21:56:20 [INFO] - Model Number: 17 with model GLS in generation 1 of 20
+2025-06-14 21:56:41 [INFO] - Model Number: 18 with model GLS in generation 1 of 20
+2025-06-14 21:56:41 [INFO] - Model Number: 19 with model GLS in generation 1 of 20
+2025-06-14 21:56:44 [INFO] - Model Number: 20 with model GLS in generation 1 of 20
+Template Eval Error: Exception("Transformer Cointegration failed on fit from params akima {'0': {'window_size': 90, 'alpha': 3.5, 'grouping_forward_limit': 4, 'max_level_shifts': 10, 'alignment': 'rolling_diff'}, '1': {}, '2': {'rows': 7, 'lag': 84, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 1, 'threshold_method': 'mean'}, '3': {'rows': 1}, '4': {'det_order': -1, 'k_ar_diff': 0}, '5': {}} with error ValueError('Coint only works on multivarate series')") in model 20 in generation 1: GLS
+Model Number: 21 with model SeasonalityMotif in generation 1 of 20
+2025-06-14 21:57:12 [INFO] - Model Number: 22 with model SeasonalityMotif in generation 1 of 20
+2025-06-14 21:57:12 [INFO] - Model Number: 23 with model LastValueNaive in generation 1 of 20
+Template Eval Error: Exception("Transformer Detrend failed on fit from params ffill {'0': {'method': 'clip', 'std_threshold': 2, 'fillna': None}, '1': {'model': 'Tweedie', 'phi': 1, 'window': 90, 'transform_dict': None}, '2': {'theta_values': [0.8, 1.2]}} with error ValueError('Found input variables with inconsistent numbers of samples: [90, 90595]')") in model 23 in generation 1: LastValueNaive
+New Generation: 2 of 20
+Model Number: 24 with model SectionalMotif in generation 2 of 20
+2025-06-14 21:57:12 [INFO] - Model Number: 25 with model SectionalMotif in generation 2 of 20
+2025-06-14 21:57:12 [INFO] - Model Number: 26 with model SectionalMotif in generation 2 of 20
+2025-06-14 21:57:12 [INFO] - Model Number: 27 with model SectionalMotif in generation 2 of 20
+2025-06-14 21:57:12 [INFO] - Model Number: 28 with model SectionalMotif in generation 2 of 20
+2025-06-14 21:57:12 [INFO] - Model Number: 29 with model SectionalMotif in generation 2 of 20
+2025-06-14 21:57:12 [INFO] - Model Number: 30 with model SectionalMotif in generation 2 of 20
+2025-06-14 21:59:15 [INFO] - Model Number: 31 with model GLS in generation 2 of 20
+2025-06-14 21:59:15 [INFO] - Model Number: 32 with model GLS in generation 2 of 20
+2025-06-14 21:59:22 [INFO] - Model Number: 33 with model GLS in generation 2 of 20
+Template Eval Error: Exception('Transformer FIRFilter failed on fit from params ffill {\'0\': {\'constraint_method\': \'last_window\', \'constraint_direction\': \'upper\', \'constraint_regularization\': 1.0, \'constraint_value\': {\'window\': 10, \'threshold\': 0.2}, \'bounds_only\': True, \'fillna\': None}, \'1\': {\'method\': \'3forecastlength\'}, \'2\': {}, \'3\': {\'method\': 0.9}, \'4\': {\'numtaps\': 128, \'cutoff_hz\': 0.1, \'window\': [\'gaussian\', 1.0], \'sampling_frequency\': 364, \'on_transform\': True, \'on_inverse\': False, \'bounds_only\': False}} with error ValueError("<class \'list\'> as window type is not supported.")') in model 33 in generation 2: GLS
+Model Number: 34 with model GLS in generation 2 of 20
+2025-06-14 22:01:37 [INFO] - Model Number: 35 with model GLS in generation 2 of 20
+2025-06-14 22:01:55 [INFO] - Model Number: 36 with model GLS in generation 2 of 20
+2025-06-14 22:01:55 [INFO] - Model Number: 37 with model GLS in generation 2 of 20
+2025-06-14 22:01:56 [INFO] - Model Number: 38 with model GLS in generation 2 of 20
+2025-06-14 22:01:57 [INFO] - Model Number: 39 with model SeasonalityMotif in generation 2 of 20
+2025-06-14 22:01:58 [INFO] - Model Number: 40 with model SeasonalityMotif in generation 2 of 20
+Template Eval Error: ValueError('Model SeasonalityMotif returned NaN for one or more series. fail_on_forecast_nan=True') in model 40 in generation 2: SeasonalityMotif
+Model Number: 41 with model LastValueNaive in generation 2 of 20
+2025-06-14 22:01:58 [INFO] - Model Number: 42 with model LastValueNaive in generation 2 of 20
+2025-06-14 22:01:58 [INFO] - Model Number: 43 with model SectionalMotif in generation 2 of 20
+2025-06-14 22:01:58 [INFO] - Model Number: 44 with model SectionalMotif in generation 2 of 20
+2025-06-14 22:04:06 [INFO] - Model Number: 45 with model GLS in generation 2 of 20
+2025-06-14 22:07:18 [INFO] - Model Number: 46 with model GLS in generation 2 of 20
+2025-06-14 22:07:21 [INFO] - Model Number: 47 with model SectionalMotif in generation 2 of 20
+Template Eval Error: Exception('Transformer PCA failed on fit from params ffill_mean_biased {\'0\': {\'whiten\': True, \'n_components\': 100}, \'1\': {\'fillna\': \'akima\', \'center\': \'zero\'}, \'2\': {}, \'3\': {}} with error ValueError("n_components=100 must be between 0 and min(n_samples, n_features)=1 with svd_solver=\'covariance_eigh\'")') in model 47 in generation 2: SectionalMotif
+Model Number: 48 with model GLS in generation 2 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params akima {'0': {'decomp_type': 'STL', 'part': 'trend', 'seasonal': 363}, '1': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': None, 'threshold_method': 'mean'}, '2': {}, '3': {'cutoff': 0.4, 'reverse': False, 'on_transform': True, 'on_inverse': False}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 48 in generation 2: GLS
+Model Number: 49 with model SeasonalityMotif in generation 2 of 20
+2025-06-14 22:07:21 [INFO] - Model Number: 50 with model SeasonalityMotif in generation 2 of 20
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+Template Eval Error: ValueError('Model SeasonalityMotif returned improper forecast_length. Returned: 44 and requested: 48') in model 50 in generation 2: SeasonalityMotif
+New Generation: 3 of 20
+Model Number: 51 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:08:02 [INFO] - Model Number: 52 with model SectionalMotif in generation 3 of 20
+Template Eval Error: Exception('Transformer ReplaceConstant failed on fit from params ffill {\'0\': {\'constraint_method\': \'last_window\', \'constraint_direction\': \'upper\', \'constraint_regularization\': 1.0, \'constraint_value\': {\'window\': 10, \'threshold\': 0.2}, \'bounds_only\': True, \'fillna\': None}, \'1\': {\'mode\': \'upscale\', \'factor\': 2, \'down_method\': \'decimate\', \'fill_method\': \'pchip\'}, \'2\': {\'constant\': 0, \'reintroduction_model\': {\'model\': \'xgboost\', \'model_params\': {\'base_score\': 0.5, \'booster\': \'gbtree\', \'colsample_bylevel\': 0.692, \'learning_rate\': 0.022, \'max_bin\': 256, \'max_depth\': 14, \'max_leaves\': 0, \'min_child_weight\': 0.024, \'n_estimators\': 162}, \'datepart_method\': \'expanded_binarized\'}, \'fillna\': \'akima\'}} with error ModuleNotFoundError("No module named \'xgboost\'")') in model 52 in generation 3: SectionalMotif
+Model Number: 53 with model SectionalMotif in generation 3 of 20
+Template Eval Error: Exception('Transformer ReplaceConstant failed on fit from params ffill {\'0\': {\'constraint_method\': \'last_window\', \'constraint_direction\': \'upper\', \'constraint_regularization\': 1.0, \'constraint_value\': {\'window\': 10, \'threshold\': 0.2}, \'bounds_only\': True, \'fillna\': None}, \'1\': {\'mode\': \'upscale\', \'factor\': 2, \'down_method\': \'decimate\', \'fill_method\': \'pchip\'}, \'2\': {\'constant\': 0, \'reintroduction_model\': {\'model\': \'xgboost\', \'model_params\': {\'base_score\': 0.5, \'booster\': \'gbtree\', \'colsample_bylevel\': 0.692, \'learning_rate\': 0.022, \'max_bin\': 256, \'max_depth\': 14, \'max_leaves\': 0, \'min_child_weight\': 0.024, \'n_estimators\': 162}, \'datepart_method\': \'expanded_binarized\'}, \'fillna\': \'akima\'}} with error ModuleNotFoundError("No module named \'xgboost\'")') in model 53 in generation 3: SectionalMotif
+Model Number: 54 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:08:02 [INFO] - Model Number: 55 with model SectionalMotif in generation 3 of 20
+Template Eval Error: ValueError("regression_type=='User' but no future_regressor supplied") in model 55 in generation 3: SectionalMotif
+Model Number: 56 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:12:21 [INFO] - Model Number: 57 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:12:21 [INFO] - Model Number: 58 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:12:21 [INFO] - Model Number: 59 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:12:22 [INFO] - Model Number: 60 with model GLS in generation 3 of 20
+2025-06-14 22:12:22 [INFO] - Model Number: 61 with model GLS in generation 3 of 20
+2025-06-14 22:12:30 [INFO] - Model Number: 62 with model GLS in generation 3 of 20
+2025-06-14 22:12:30 [INFO] - Model Number: 63 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:12:30 [INFO] - Model Number: 64 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:12:30 [INFO] - Model Number: 65 with model GLS in generation 3 of 20
+2025-06-14 22:12:30 [INFO] - Model Number: 66 with model GLS in generation 3 of 20
+2025-06-14 22:12:30 [INFO] - Model Number: 67 with model GLS in generation 3 of 20
+2025-06-14 22:14:50 [INFO] - Model Number: 68 with model GLS in generation 3 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params ffill {'0': {'decomp_type': 'seasonal_decompose', 'part': 'trend'}, '1': {'rows': 7, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': True, 'threshold': None, 'threshold_method': 'mean'}, '2': {'n_harmonics': 10, 'detrend': 'quadratic'}, '3': {'decimals': 0, 'on_transform': False, 'on_inverse': True}, '4': {'whiten': False, 'n_components': None}, '5': {}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 68 in generation 3: GLS
+Model Number: 69 with model GLS in generation 3 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params ffill {'0': {'decomp_type': 'seasonal_decompose', 'part': 'trend'}, '1': {'rows': 7, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': True, 'threshold': None, 'threshold_method': 'mean'}, '2': {'n_harmonics': 10, 'detrend': 'quadratic'}, '3': {'rows': 1}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 69 in generation 3: GLS
+Model Number: 70 with model GLS in generation 3 of 20
+2025-06-14 22:16:32 [INFO] - Model Number: 71 with model GLS in generation 3 of 20
+2025-06-14 22:16:32 [INFO] - Model Number: 72 with model GLS in generation 3 of 20
+2025-06-14 22:16:33 [INFO] - Model Number: 73 with model GLS in generation 3 of 20
+2025-06-14 22:16:36 [INFO] - Model Number: 74 with model SeasonalityMotif in generation 3 of 20
+2025-06-14 22:16:36 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (144,1) (48,1) ') in model 74 in generation 3: SeasonalityMotif
+Model Number: 75 with model LastValueNaive in generation 3 of 20
+2025-06-14 22:16:36 [INFO] - Model Number: 76 with model LastValueNaive in generation 3 of 20
+Template Eval Error: Exception('Transformer PCA failed on fit from params ffill {\'0\': {\'constraint_method\': \'last_window\', \'constraint_direction\': \'upper\', \'constraint_regularization\': 1.0, \'constraint_value\': {\'window\': 10, \'threshold\': 0.2}, \'bounds_only\': True, \'fillna\': None}, \'1\': {\'whiten\': False, \'n_components\': 100}, \'2\': {\'output_distribution\': \'uniform\', \'n_quantiles\': 1000}} with error ValueError("n_components=100 must be between 0 and min(n_samples, n_features)=1 with svd_solver=\'covariance_eigh\'")') in model 76 in generation 3: LastValueNaive
+Model Number: 77 with model LastValueNaive in generation 3 of 20
+2025-06-14 22:16:37 [INFO] - Model Number: 78 with model LastValueNaive in generation 3 of 20
+Template Eval Error: Exception("Transformer BTCD failed on fit from params pchip {'0': {'method': 'clip', 'std_threshold': 2, 'fillna': None}, '1': {}, '2': {'regression_model': {'model': 'LinearRegression', 'model_params': {}}, 'max_lags': 2}} with error ValueError('BTCD only works on multivarate series')") in model 78 in generation 3: LastValueNaive
+Model Number: 79 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:16:37 [INFO] - Model Number: 80 with model SectionalMotif in generation 3 of 20
+2025-06-14 22:18:41 [INFO] - Model Number: 81 with model SeasonalityMotif in generation 3 of 20
+
+# --------------------------------------- 
+
+Template Eval Error: Exception("Transformer DatepartRegression failed on fit from params ffill {'0': {}, '1': {'regression_model': {'model': 'ExtraTrees', 'model_params': {'n_estimators': 100, 'min_samples_leaf': 1, 'min_samples_split': 2, 'max_depth': 20, 'criterion': 'friedman_mse', 'max_features': 1}}, 'datepart_method': 'simple_binarized', 'polynomial_degree': None, 'transform_dict': None, 'holiday_countries_used': False, 'lags': None, 'forward_lags': 4}, '2': {'lag_1': 12, 'method': 'Mean'}, '3': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}} with error ValueError('Found input variables with inconsistent numbers of samples: [7376995, 90595]')") in model 81 in generation 3: SeasonalityMotif
+Model Number: 82 with model SeasonalityMotif in generation 3 of 20
+Model Number: 83 with model LastValueNaive in generation 3 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params ffill {'0': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': True, 'anomaly_detector_params': {'method': 'zscore', 'method_params': {'distribution': 'norm', 'alpha': 0.14}, 'fillna': 'rolling_mean_24', 'transform_dict': {'fillna': None, 'transformations': {'0': 'EWMAFilter'}, 'transformation_params': {'0': {'span': 7}}}, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'anomaly_score', 'regression_params': {}}, '1': {'lag_1': 12, 'method': 5}, '2': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 83 in generation 3: LastValueNaive
+Model Number: 84 with model SeasonalityMotif in generation 3 of 20
+Model Number: 85 with model SeasonalityMotif in generation 3 of 20
+Model Number: 86 with model SeasonalityMotif in generation 3 of 20
+New Generation: 4 of 20
+Model Number: 87 with model SectionalMotif in generation 4 of 20
+2025-06-14 22:18:41 [INFO] - Model Number: 88 with model SectionalMotif in generation 4 of 20
+Model Number: 89 with model SectionalMotif in generation 4 of 20
+2025-06-14 22:18:41 [INFO] - Model Number: 90 with model SectionalMotif in generation 4 of 20
+2025-06-14 22:18:41 [INFO] - Model Number: 91 with model SectionalMotif in generation 4 of 20
+Model Number: 92 with model SectionalMotif in generation 4 of 20
+2025-06-14 22:18:45 [INFO] - Model Number: 93 with model SectionalMotif in generation 4 of 20
+Template Eval Error: Exception("Transformer Cointegration failed on fit from params ffill {'0': {'det_order': 0, 'k_ar_diff': 0}, '1': {'lag_1': 52, 'method': 5}} with error ValueError('Coint only works on multivarate series')") in model 93 in generation 4: SectionalMotif
+Model Number: 94 with model SectionalMotif in generation 4 of 20
+Model Number: 95 with model SectionalMotif in generation 4 of 20
+Template Eval Error: ValueError("regression_type=='User' but no future_regressor supplied") in model 95 in generation 4: SectionalMotif
+Model Number: 96 with model SectionalMotif in generation 4 of 20
+Model Number: 97 with model GLS in generation 4 of 20
+Model Number: 98 with model GLS in generation 4 of 20
+Model Number: 99 with model GLS in generation 4 of 20
+2025-06-14 22:18:46 [INFO] - Model Number: 100 with model SectionalMotif in generation 4 of 20
+Model Number: 101 with model SectionalMotif in generation 4 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'window': None}, '2': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'IQR', 'method_params': {'iqr_threshold': 3.0, 'iqr_quantiles': [0.25, 0.75]}, 'fillna': 'rolling_mean_24', 'transform_dict': None, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'anomaly_score', 'regression_params': {}}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 101 in generation 4: SectionalMotif
+Model Number: 102 with model SectionalMotif in generation 4 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params ffill_mean_biased {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'window': None}, '2': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'IQR', 'method_params': {'iqr_threshold': 3.0, 'iqr_quantiles': [0.25, 0.75]}, 'fillna': 'rolling_mean_24', 'transform_dict': None, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'anomaly_score', 'regression_params': {}}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 102 in generation 4: SectionalMotif
+Model Number: 103 with model GLS in generation 4 of 20
+Model Number: 104 with model GLS in generation 4 of 20
+2025-06-14 22:18:48 [INFO] - Model Number: 105 with model GLS in generation 4 of 20
+Model Number: 106 with model GLS in generation 4 of 20
+2025-06-14 22:18:48 [INFO] - Model Number: 107 with model GLS in generation 4 of 20
+2025-06-14 22:18:50 [INFO] - Model Number: 108 with model GLS in generation 4 of 20
+Model Number: 109 with model GLS in generation 4 of 20
+Template Eval Error: Exception('Transformer PCA failed on fit from params ffill {\'0\': {\'whiten\': False, \'n_components\': 10}, \'1\': {\'rolling_window\': 0.1, \'n_tails\': 0.1, \'n_future\': 0.2, \'method\': \'median\', \'macro_micro\': False}, \'2\': {}, \'3\': {}, \'4\': {\'constant\': 0, \'reintroduction_model\': None, \'fillna\': \'mean\'}} with error ValueError("n_components=10 must be between 0 and min(n_samples, n_features)=1 with svd_solver=\'covariance_eigh\'")') in model 109 in generation 4: GLS
+Model Number: 110 with model GLS in generation 4 of 20
+Model Number: 111 with model GLS in generation 4 of 20
+Model Number: 112 with model SeasonalityMotif in generation 4 of 20
+Model Number: 113 with model SeasonalityMotif in generation 4 of 20
+Model Number: 114 with model LastValueNaive in generation 4 of 20
+2025-06-14 22:18:50 [INFO] - Model Number: 115 with model LastValueNaive in generation 4 of 20
+2025-06-14 22:18:50 [INFO] - Model Number: 116 with model LastValueNaive in generation 4 of 20
+2025-06-14 22:18:50 [INFO] - Model Number: 117 with model SeasonalityMotif in generation 4 of 20
+Model Number: 118 with model SeasonalityMotif in generation 4 of 20
+Model Number: 119 with model LastValueNaive in generation 4 of 20
+2025-06-14 22:18:52 [INFO] - Model Number: 120 with model SeasonalityMotif in generation 4 of 20
+Model Number: 121 with model SeasonalityMotif in generation 4 of 20
+Model Number: 122 with model SeasonalityMotif in generation 4 of 20
+New Generation: 5 of 20
+Model Number: 123 with model SectionalMotif in generation 5 of 20
+2025-06-14 22:18:52 [INFO] - Model Number: 124 with model SectionalMotif in generation 5 of 20
+2025-06-14 22:18:52 [INFO] - Model Number: 125 with model SectionalMotif in generation 5 of 20
+2025-06-14 22:18:52 [INFO] - Model Number: 126 with model SectionalMotif in generation 5 of 20
+2025-06-14 22:18:52 [INFO] - Model Number: 127 with model SectionalMotif in generation 5 of 20
+Model Number: 128 with model SectionalMotif in generation 5 of 20
+2025-06-14 22:18:52 [INFO] - Model Number: 129 with model SectionalMotif in generation 5 of 20
+2025-06-14 22:18:53 [INFO] - Model Number: 130 with model SectionalMotif in generation 5 of 20
+Model Number: 131 with model SectionalMotif in generation 5 of 20
+Model Number: 132 with model SectionalMotif in generation 5 of 20
+Template Eval Error: ValueError("regression_type=='User' but no future_regressor supplied") in model 132 in generation 5: SectionalMotif
+Model Number: 133 with model SectionalMotif in generation 5 of 20
+Model Number: 134 with model SectionalMotif in generation 5 of 20
+Model Number: 135 with model SectionalMotif in generation 5 of 20
+Model Number: 136 with model SectionalMotif in generation 5 of 20
+Template Eval Error: ValueError('Model SectionalMotif returned NaN for one or more series. fail_on_forecast_nan=True') in model 136 in generation 5: SectionalMotif
+Model Number: 137 with model SectionalMotif in generation 5 of 20
+2025-06-14 22:18:54 [INFO] - Model Number: 138 with model GLS in generation 5 of 20
+Model Number: 139 with model GLS in generation 5 of 20
+Model Number: 140 with model GLS in generation 5 of 20
+Model Number: 141 with model GLS in generation 5 of 20
+Model Number: 142 with model GLS in generation 5 of 20
+Model Number: 143 with model GLS in generation 5 of 20
+Model Number: 144 with model GLS in generation 5 of 20
+Model Number: 145 with model GLS in generation 5 of 20
+Model Number: 146 with model GLS in generation 5 of 20
+Model Number: 147 with model GLS in generation 5 of 20
+Model Number: 148 with model GLS in generation 5 of 20
+Model Number: 149 with model GLS in generation 5 of 20
+Model Number: 150 with model SeasonalityMotif in generation 5 of 20
+Model Number: 151 with model SeasonalityMotif in generation 5 of 20
+Model Number: 152 with model LastValueNaive in generation 5 of 20
+2025-06-14 22:18:54 [INFO] - Model Number: 153 with model LastValueNaive in generation 5 of 20
+Model Number: 154 with model LastValueNaive in generation 5 of 20
+2025-06-14 22:18:54 [INFO] - Model Number: 155 with model LastValueNaive in generation 5 of 20
+2025-06-14 22:18:55 [INFO] - Model Number: 156 with model SeasonalityMotif in generation 5 of 20
+2025-06-14 22:18:55 [INFO] - Model Number: 157 with model LastValueNaive in generation 5 of 20
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+Template Eval Error: ValueError('Model LastValueNaive returned improper forecast_length. Returned: 46 and requested: 48') in model 157 in generation 5: LastValueNaive
+Model Number: 158 with model SeasonalityMotif in generation 5 of 20
+Model Number: 159 with model SeasonalityMotif in generation 5 of 20
+Model Number: 160 with model SeasonalityMotif in generation 5 of 20
+New Generation: 6 of 20
+
+
+# -------------------------------------------
+2025-06-14 22:20:20 [INFO] - Система логирования настроена.
+2025-06-14 22:20:20 [INFO] - 🚀 Этап 2: Тонкая настройка моделей из шаблона...
+2025-06-14 22:20:20 [INFO] - 
+
+==================================================
+2025-06-14 22:20:20 [INFO] - ⚙️  Запускаю тонкую настройку лучших моделей из шаблона...
+2025-06-14 22:20:20 [INFO] - 📄 Шаблон: prometheus_autots_template.csv
+2025-06-14 22:20:20 [INFO] - ==================================================
+
+2025-06-14 22:20:20 [INFO] - ✅ Для тюнинга загружено 90643 записей
+2025-06-14 22:20:20 [INFO] - 🤖 Инициализирую AutoTS для тонкой настройки...
+2025-06-14 22:20:20 [INFO] - Импортирую модели из prometheus_autots_template.csv для тонкой настройки...
+2025-06-14 22:20:20 [INFO] - 🏋️ Начинаю обучение (это может занять больше времени, чем первый прогон)...
+2025-06-14 22:20:20 [INFO] - Data frequency is: 15s, used frequency is: 15s
+Model Number: 1 with model SectionalMotif in generation 0 of 20
+2025-06-14 22:20:20 [INFO] - Model Number: 2 with model SectionalMotif in generation 0 of 20
+2025-06-14 22:20:20 [INFO] - Model Number: 3 with model SectionalMotif in generation 0 of 20
+2025-06-14 22:24:21 [INFO] - Model Number: 4 with model GLS in generation 0 of 20
+2025-06-14 22:24:29 [INFO] - Model Number: 5 with model GLS in generation 0 of 20
+2025-06-14 22:24:29 [INFO] - Model Number: 6 with model LastValueNaive in generation 0 of 20
+2025-06-14 22:24:30 [INFO] - Model Number: 7 with model SeasonalityMotif in generation 0 of 20
+2025-06-14 22:24:30 [INFO] - New Generation: 1 of 20
+Model Number: 8 with model SectionalMotif in generation 1 of 20
+2025-06-14 22:24:30 [INFO] - Model Number: 9 with model SectionalMotif in generation 1 of 20
+2025-06-14 22:24:30 [INFO] - Model Number: 10 with model SectionalMotif in generation 1 of 20
+2025-06-14 23:19:42 [INFO] - Model Number: 11 with model SectionalMotif in generation 1 of 20
+2025-06-14 23:19:47 [INFO] - Model Number: 12 with model SectionalMotif in generation 1 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params rolling_mean {'0': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'rolling_zscore', 'method_params': {'distribution': 'cauchy', 'alpha': 0.05, 'rolling_periods': 300, 'center': False}, 'fillna': 'ffill', 'transform_dict': {'transformations': {'0': 'DatepartRegression'}, 'transformation_params': {'0': {'datepart_method': 'simple_3', 'regression_model': {'model': 'ElasticNet', 'model_params': {}}}}}, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'regression', 'regression_params': {}}, '1': {}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 12 in generation 1: SectionalMotif
+Model Number: 13 with model SectionalMotif in generation 1 of 20
+2025-06-14 23:20:37 [INFO] - Model Number: 14 with model SectionalMotif in generation 1 of 20
+2025-06-14 23:20:38 [INFO] - Model Number: 15 with model SectionalMotif in generation 1 of 20
+2025-06-14 23:20:38 [INFO] - Model Number: 16 with model SectionalMotif in generation 1 of 20
+2025-06-14 23:23:19 [INFO] - Model Number: 17 with model GLS in generation 1 of 20
+2025-06-14 23:23:40 [INFO] - Model Number: 18 with model GLS in generation 1 of 20
+2025-06-14 23:23:41 [INFO] - Model Number: 19 with model GLS in generation 1 of 20
+2025-06-14 23:23:43 [INFO] - Model Number: 20 with model GLS in generation 1 of 20
+Template Eval Error: Exception("Transformer Cointegration failed on fit from params akima {'0': {'window_size': 90, 'alpha': 3.5, 'grouping_forward_limit': 4, 'max_level_shifts': 10, 'alignment': 'rolling_diff'}, '1': {}, '2': {'rows': 7, 'lag': 84, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 1, 'threshold_method': 'mean'}, '3': {'rows': 1}, '4': {'det_order': -1, 'k_ar_diff': 0}, '5': {}} with error ValueError('Coint only works on multivarate series')") in model 20 in generation 1: GLS
+Model Number: 21 with model SeasonalityMotif in generation 1 of 20
+2025-06-14 23:24:11 [INFO] - Model Number: 22 with model SeasonalityMotif in generation 1 of 20
+2025-06-14 23:24:11 [INFO] - Model Number: 23 with model LastValueNaive in generation 1 of 20
+Template Eval Error: Exception("Transformer Detrend failed on fit from params ffill {'0': {'method': 'clip', 'std_threshold': 2, 'fillna': None}, '1': {'model': 'Tweedie', 'phi': 1, 'window': 90, 'transform_dict': None}, '2': {'theta_values': [0.8, 1.2]}} with error ValueError('Found input variables with inconsistent numbers of samples: [90, 90595]')") in model 23 in generation 1: LastValueNaive
+New Generation: 2 of 20
+Model Number: 24 with model SectionalMotif in generation 2 of 20
+2025-06-14 23:24:11 [INFO] - Model Number: 25 with model SectionalMotif in generation 2 of 20
+2025-06-14 23:24:11 [INFO] - Model Number: 26 with model SectionalMotif in generation 2 of 20
+2025-06-14 23:24:12 [INFO] - Model Number: 27 with model SectionalMotif in generation 2 of 20
+2025-06-14 23:24:12 [INFO] - Model Number: 28 with model SectionalMotif in generation 2 of 20
+2025-06-14 23:24:12 [INFO] - Model Number: 29 with model SectionalMotif in generation 2 of 20
+2025-06-14 23:24:12 [INFO] - Model Number: 30 with model SectionalMotif in generation 2 of 20
+2025-06-14 23:26:17 [INFO] - Model Number: 31 with model GLS in generation 2 of 20
+2025-06-14 23:26:17 [INFO] - Model Number: 32 with model GLS in generation 2 of 20
+2025-06-14 23:26:25 [INFO] - Model Number: 33 with model GLS in generation 2 of 20
+Template Eval Error: Exception('Transformer FIRFilter failed on fit from params ffill {\'0\': {\'constraint_method\': \'last_window\', \'constraint_direction\': \'upper\', \'constraint_regularization\': 1.0, \'constraint_value\': {\'window\': 10, \'threshold\': 0.2}, \'bounds_only\': True, \'fillna\': None}, \'1\': {\'method\': \'3forecastlength\'}, \'2\': {}, \'3\': {\'method\': 0.9}, \'4\': {\'numtaps\': 128, \'cutoff_hz\': 0.1, \'window\': [\'gaussian\', 1.0], \'sampling_frequency\': 364, \'on_transform\': True, \'on_inverse\': False, \'bounds_only\': False}} with error ValueError("<class \'list\'> as window type is not supported.")') in model 33 in generation 2: GLS
+Model Number: 34 with model GLS in generation 2 of 20
+2025-06-14 23:28:27 [INFO] - Model Number: 35 with model GLS in generation 2 of 20
+2025-06-14 23:28:39 [INFO] - Model Number: 36 with model GLS in generation 2 of 20
+2025-06-14 23:28:40 [INFO] - Model Number: 37 with model GLS in generation 2 of 20
+2025-06-14 23:28:40 [INFO] - Model Number: 38 with model GLS in generation 2 of 20
+2025-06-14 23:28:41 [INFO] - Model Number: 39 with model SeasonalityMotif in generation 2 of 20
+2025-06-14 23:28:42 [INFO] - Model Number: 40 with model SeasonalityMotif in generation 2 of 20
+Template Eval Error: ValueError('Model SeasonalityMotif returned NaN for one or more series. fail_on_forecast_nan=True') in model 40 in generation 2: SeasonalityMotif
+Model Number: 41 with model LastValueNaive in generation 2 of 20
+2025-06-14 23:28:42 [INFO] - Model Number: 42 with model LastValueNaive in generation 2 of 20
+2025-06-14 23:28:42 [INFO] - Model Number: 43 with model SectionalMotif in generation 2 of 20
+2025-06-14 23:28:42 [INFO] - Model Number: 44 with model SectionalMotif in generation 2 of 20
+2025-06-14 23:30:48 [INFO] - Model Number: 45 with model GLS in generation 2 of 20
+2025-06-14 23:34:02 [INFO] - Model Number: 46 with model GLS in generation 2 of 20
+2025-06-14 23:34:04 [INFO] - Model Number: 47 with model SectionalMotif in generation 2 of 20
+Template Eval Error: Exception('Transformer PCA failed on fit from params ffill_mean_biased {\'0\': {\'whiten\': True, \'n_components\': 100}, \'1\': {\'fillna\': \'akima\', \'center\': \'zero\'}, \'2\': {}, \'3\': {}} with error ValueError("n_components=100 must be between 0 and min(n_samples, n_features)=1 with svd_solver=\'covariance_eigh\'")') in model 47 in generation 2: SectionalMotif
+Model Number: 48 with model GLS in generation 2 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params akima {'0': {'decomp_type': 'STL', 'part': 'trend', 'seasonal': 363}, '1': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': None, 'threshold_method': 'mean'}, '2': {}, '3': {'cutoff': 0.4, 'reverse': False, 'on_transform': True, 'on_inverse': False}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 48 in generation 2: GLS
+Model Number: 49 with model SeasonalityMotif in generation 2 of 20
+2025-06-14 23:34:05 [INFO] - Model Number: 50 with model SeasonalityMotif in generation 2 of 20
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+Template Eval Error: ValueError('Model SeasonalityMotif returned improper forecast_length. Returned: 44 and requested: 48') in model 50 in generation 2: SeasonalityMotif
+New Generation: 3 of 20
+Model Number: 51 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:34:44 [INFO] - Model Number: 52 with model SectionalMotif in generation 3 of 20
+Template Eval Error: Exception("Transformer ReplaceConstant failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'mode': 'upscale', 'factor': 2, 'down_method': 'decimate', 'fill_method': 'pchip'}, '2': {'constant': 0, 'reintroduction_model': {'model': 'xgboost', 'model_params': {'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 0.692, 'learning_rate': 0.022, 'max_bin': 256, 'max_depth': 14, 'max_leaves': 0, 'min_child_weight': 0.024, 'n_estimators': 162}, 'datepart_method': 'expanded_binarized'}, 'fillna': 'akima'}} with error ValueError('Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]')") in model 52 in generation 3: SectionalMotif
+Model Number: 53 with model SectionalMotif in generation 3 of 20
+Template Eval Error: Exception("Transformer ReplaceConstant failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'mode': 'upscale', 'factor': 2, 'down_method': 'decimate', 'fill_method': 'pchip'}, '2': {'constant': 0, 'reintroduction_model': {'model': 'xgboost', 'model_params': {'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 0.692, 'learning_rate': 0.022, 'max_bin': 256, 'max_depth': 14, 'max_leaves': 0, 'min_child_weight': 0.024, 'n_estimators': 162}, 'datepart_method': 'expanded_binarized'}, 'fillna': 'akima'}} with error ValueError('Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]')") in model 53 in generation 3: SectionalMotif
+Model Number: 54 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:34:44 [INFO] - Model Number: 55 with model SectionalMotif in generation 3 of 20
+Template Eval Error: ValueError("regression_type=='User' but no future_regressor supplied") in model 55 in generation 3: SectionalMotif
+Model Number: 56 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:38:46 [INFO] - Model Number: 57 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:38:46 [INFO] - Model Number: 58 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:38:46 [INFO] - Model Number: 59 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:38:46 [INFO] - Model Number: 60 with model GLS in generation 3 of 20
+2025-06-14 23:38:46 [INFO] - Model Number: 61 with model GLS in generation 3 of 20
+2025-06-14 23:38:54 [INFO] - Model Number: 62 with model GLS in generation 3 of 20
+2025-06-14 23:38:55 [INFO] - Model Number: 63 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:38:55 [INFO] - Model Number: 64 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:38:55 [INFO] - Model Number: 65 with model GLS in generation 3 of 20
+2025-06-14 23:38:55 [INFO] - Model Number: 66 with model GLS in generation 3 of 20
+2025-06-14 23:38:55 [INFO] - Model Number: 67 with model GLS in generation 3 of 20
+2025-06-14 23:41:04 [INFO] - Model Number: 68 with model GLS in generation 3 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params ffill {'0': {'decomp_type': 'seasonal_decompose', 'part': 'trend'}, '1': {'rows': 7, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': True, 'threshold': None, 'threshold_method': 'mean'}, '2': {'n_harmonics': 10, 'detrend': 'quadratic'}, '3': {'decimals': 0, 'on_transform': False, 'on_inverse': True}, '4': {'whiten': False, 'n_components': None}, '5': {}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 68 in generation 3: GLS
+Model Number: 69 with model GLS in generation 3 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params ffill {'0': {'decomp_type': 'seasonal_decompose', 'part': 'trend'}, '1': {'rows': 7, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': True, 'threshold': None, 'threshold_method': 'mean'}, '2': {'n_harmonics': 10, 'detrend': 'quadratic'}, '3': {'rows': 1}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 69 in generation 3: GLS
+Model Number: 70 with model GLS in generation 3 of 20
+2025-06-14 23:42:53 [INFO] - Model Number: 71 with model GLS in generation 3 of 20
+2025-06-14 23:42:53 [INFO] - Model Number: 72 with model GLS in generation 3 of 20
+2025-06-14 23:42:53 [INFO] - Model Number: 73 with model GLS in generation 3 of 20
+2025-06-14 23:42:57 [INFO] - Model Number: 74 with model SeasonalityMotif in generation 3 of 20
+2025-06-14 23:42:57 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (144,1) (48,1) ') in model 74 in generation 3: SeasonalityMotif
+Model Number: 75 with model LastValueNaive in generation 3 of 20
+2025-06-14 23:42:57 [INFO] - Model Number: 76 with model LastValueNaive in generation 3 of 20
+Template Eval Error: Exception('Transformer PCA failed on fit from params ffill {\'0\': {\'constraint_method\': \'last_window\', \'constraint_direction\': \'upper\', \'constraint_regularization\': 1.0, \'constraint_value\': {\'window\': 10, \'threshold\': 0.2}, \'bounds_only\': True, \'fillna\': None}, \'1\': {\'whiten\': False, \'n_components\': 100}, \'2\': {\'output_distribution\': \'uniform\', \'n_quantiles\': 1000}} with error ValueError("n_components=100 must be between 0 and min(n_samples, n_features)=1 with svd_solver=\'covariance_eigh\'")') in model 76 in generation 3: LastValueNaive
+Model Number: 77 with model LastValueNaive in generation 3 of 20
+2025-06-14 23:42:57 [INFO] - Model Number: 78 with model LastValueNaive in generation 3 of 20
+Template Eval Error: Exception("Transformer BTCD failed on fit from params pchip {'0': {'method': 'clip', 'std_threshold': 2, 'fillna': None}, '1': {}, '2': {'regression_model': {'model': 'LinearRegression', 'model_params': {}}, 'max_lags': 2}} with error ValueError('BTCD only works on multivarate series')") in model 78 in generation 3: LastValueNaive
+Model Number: 79 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:42:57 [INFO] - Model Number: 80 with model SectionalMotif in generation 3 of 20
+2025-06-14 23:45:52 [INFO] - Model Number: 81 with model SeasonalityMotif in generation 3 of 20
+Template Eval Error: Exception("Transformer DatepartRegression failed on fit from params ffill {'0': {}, '1': {'regression_model': {'model': 'ExtraTrees', 'model_params': {'n_estimators': 100, 'min_samples_leaf': 1, 'min_samples_split': 2, 'max_depth': 20, 'criterion': 'friedman_mse', 'max_features': 1}}, 'datepart_method': 'simple_binarized', 'polynomial_degree': None, 'transform_dict': None, 'holiday_countries_used': False, 'lags': None, 'forward_lags': 4}, '2': {'lag_1': 12, 'method': 'Mean'}, '3': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}} with error ValueError('Found input variables with inconsistent numbers of samples: [7376995, 90595]')") in model 81 in generation 3: SeasonalityMotif
+Model Number: 82 with model SeasonalityMotif in generation 3 of 20
+Template Eval Error: Exception("Transformer DatepartRegression failed on fit from params ffill {'0': {'output_distribution': 'uniform', 'n_quantiles': 1000}, '1': {'regression_model': {'model': 'ExtraTrees', 'model_params': {'n_estimators': 100, 'min_samples_leaf': 1, 'min_samples_split': 2, 'max_depth': 20, 'criterion': 'friedman_mse', 'max_features': 1}}, 'datepart_method': 'simple_binarized', 'polynomial_degree': None, 'transform_dict': None, 'holiday_countries_used': False, 'lags': None, 'forward_lags': 4}, '2': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}} with error ValueError('Found input variables with inconsistent numbers of samples: [7376995, 90595]')") in model 82 in generation 3: SeasonalityMotif
+Model Number: 83 with model LastValueNaive in generation 3 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params ffill {'0': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': True, 'anomaly_detector_params': {'method': 'zscore', 'method_params': {'distribution': 'norm', 'alpha': 0.14}, 'fillna': 'rolling_mean_24', 'transform_dict': {'fillna': None, 'transformations': {'0': 'EWMAFilter'}, 'transformation_params': {'0': {'span': 7}}}, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'anomaly_score', 'regression_params': {}}, '1': {'lag_1': 12, 'method': 5}, '2': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 83 in generation 3: LastValueNaive
+Model Number: 84 with model SeasonalityMotif in generation 3 of 20
+2025-06-14 23:45:53 [INFO] - Model Number: 85 with model SeasonalityMotif in generation 3 of 20
+2025-06-14 23:45:54 [INFO] - Model Number: 86 with model SeasonalityMotif in generation 3 of 20
+2025-06-14 23:45:55 [INFO] - New Generation: 4 of 20
+Model Number: 87 with model SectionalMotif in generation 4 of 20
+2025-06-14 23:45:55 [INFO] - Model Number: 88 with model SectionalMotif in generation 4 of 20
+2025-06-14 23:45:55 [INFO] - Model Number: 89 with model SectionalMotif in generation 4 of 20
+2025-06-14 23:45:55 [INFO] - Model Number: 90 with model SectionalMotif in generation 4 of 20
+2025-06-14 23:45:55 [INFO] - Model Number: 91 with model SectionalMotif in generation 4 of 20
+2025-06-14 23:45:55 [INFO] - Model Number: 92 with model SectionalMotif in generation 4 of 20
+2025-06-14 23:46:10 [INFO] - Model Number: 93 with model SectionalMotif in generation 4 of 20
+Template Eval Error: Exception("Transformer Cointegration failed on fit from params ffill {'0': {'det_order': 0, 'k_ar_diff': 0}, '1': {'lag_1': 52, 'method': 5}} with error ValueError('Coint only works on multivarate series')") in model 93 in generation 4: SectionalMotif
+Model Number: 94 with model SectionalMotif in generation 4 of 20
+2025-06-14 23:46:25 [INFO] - Model Number: 95 with model SectionalMotif in generation 4 of 20
+Template Eval Error: ValueError("regression_type=='User' but no future_regressor supplied") in model 95 in generation 4: SectionalMotif
+Model Number: 96 with model SectionalMotif in generation 4 of 20
+2025-06-14 23:51:46 [INFO] - Model Number: 97 with model GLS in generation 4 of 20
+2025-06-14 23:53:29 [INFO] - Model Number: 98 with model GLS in generation 4 of 20
+2025-06-14 23:53:29 [INFO] - Model Number: 99 with model GLS in generation 4 of 20
+2025-06-14 23:53:32 [INFO] - Model Number: 100 with model SectionalMotif in generation 4 of 20
+2025-06-14 23:53:37 [INFO] - Model Number: 101 with model SectionalMotif in generation 4 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'window': None}, '2': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'IQR', 'method_params': {'iqr_threshold': 3.0, 'iqr_quantiles': [0.25, 0.75]}, 'fillna': 'rolling_mean_24', 'transform_dict': None, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'anomaly_score', 'regression_params': {}}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 101 in generation 4: SectionalMotif
+Model Number: 102 with model SectionalMotif in generation 4 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params ffill_mean_biased {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'window': None}, '2': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'IQR', 'method_params': {'iqr_threshold': 3.0, 'iqr_quantiles': [0.25, 0.75]}, 'fillna': 'rolling_mean_24', 'transform_dict': None, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'anomaly_score', 'regression_params': {}}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 102 in generation 4: SectionalMotif
+Model Number: 103 with model GLS in generation 4 of 20
+2025-06-14 23:53:37 [INFO] - Model Number: 104 with model GLS in generation 4 of 20
+2025-06-14 23:53:42 [INFO] - Model Number: 105 with model GLS in generation 4 of 20
+2025-06-14 23:53:42 [INFO] - Model Number: 106 with model GLS in generation 4 of 20
+2025-06-14 23:53:42 [INFO] - Model Number: 107 with model GLS in generation 4 of 20
+2025-06-14 23:55:54 [INFO] - Model Number: 108 with model GLS in generation 4 of 20
+2025-06-15 00:00:04 [INFO] - Model Number: 109 with model GLS in generation 4 of 20
+Template Eval Error: Exception('Transformer PCA failed on fit from params ffill {\'0\': {\'whiten\': False, \'n_components\': 10}, \'1\': {\'rolling_window\': 0.1, \'n_tails\': 0.1, \'n_future\': 0.2, \'method\': \'median\', \'macro_micro\': False}, \'2\': {}, \'3\': {}, \'4\': {\'constant\': 0, \'reintroduction_model\': None, \'fillna\': \'mean\'}} with error ValueError("n_components=10 must be between 0 and min(n_samples, n_features)=1 with svd_solver=\'covariance_eigh\'")') in model 109 in generation 4: GLS
+Model Number: 110 with model GLS in generation 4 of 20
+2025-06-15 00:04:24 [INFO] - Model Number: 111 with model GLS in generation 4 of 20
+2025-06-15 00:04:27 [INFO] - Model Number: 112 with model SeasonalityMotif in generation 4 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params time {'0': {}, '1': {'method': 'rolling_zscore', 'method_params': {'distribution': 'chi2', 'alpha': 0.05, 'rolling_periods': 200, 'center': False}, 'fillna': 'ffill', 'transform_dict': None, 'isolated_only': False, 'on_inverse': False}, '2': {}, '3': {'decomp_type': 'seasonal_decompose', 'part': 'trend'}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 112 in generation 4: SeasonalityMotif
+Model Number: 113 with model SeasonalityMotif in generation 4 of 20
+2025-06-15 00:04:27 [INFO] - Model Number: 114 with model LastValueNaive in generation 4 of 20
+2025-06-15 00:04:27 [INFO] - Model Number: 115 with model LastValueNaive in generation 4 of 20
+2025-06-15 00:04:27 [INFO] - Model Number: 116 with model LastValueNaive in generation 4 of 20
+2025-06-15 00:04:27 [INFO] - Model Number: 117 with model SeasonalityMotif in generation 4 of 20
+2025-06-15 00:04:31 [INFO] - Model Number: 118 with model SeasonalityMotif in generation 4 of 20
+2025-06-15 00:04:33 [INFO] - Model Number: 119 with model SeasonalityMotif in generation 4 of 20
+2025-06-15 00:04:33 [INFO] - Model Number: 120 with model SeasonalityMotif in generation 4 of 20
+Template Eval Error: Exception("Transformer Cointegration failed on fit from params ffill {'0': {'output_distribution': 'normal', 'n_quantiles': 1000}, '1': {'lag_1': 12, 'method': 5}, '2': {'det_order': 0, 'k_ar_diff': 0}, '3': {}} with error ValueError('Coint only works on multivarate series')") in model 120 in generation 4: SeasonalityMotif
+Model Number: 121 with model LastValueNaive in generation 4 of 20
+2025-06-15 00:04:33 [INFO] - Model Number: 122 with model SeasonalityMotif in generation 4 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params time {'0': {}, '1': {}, '2': {}, '3': {'model': 'Linear', 'phi': 1, 'window': 900, 'transform_dict': None}, '4': {'threshold': 0.9, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': True, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'rolling_zscore', 'method_params': {'distribution': 'norm', 'alpha': 0.05, 'rolling_periods': 200, 'center': True}, 'fillna': 'linear', 'transform_dict': {'transformations': {'0': 'DatepartRegression'}, 'transformation_params': {'0': {'datepart_method': 'simple_3', 'regression_model': {'model': 'FastRidge', 'model_params': {}}}}}, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'median_value', 'regression_params': {}}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 122 in generation 4: SeasonalityMotif
+New Generation: 5 of 20
+Model Number: 123 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:04:33 [INFO] - Model Number: 124 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:04:33 [INFO] - Model Number: 125 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:04:33 [INFO] - Model Number: 126 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:04:33 [INFO] - Model Number: 127 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:04:33 [INFO] - Model Number: 128 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:08:32 [INFO] - Model Number: 129 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:12:30 [INFO] - Model Number: 130 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:12:30 [INFO] - Model Number: 131 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:12:30 [INFO] - Model Number: 132 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:12:31 [INFO] - Model Number: 133 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:12:31 [INFO] - Model Number: 134 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:12:31 [INFO] - Model Number: 135 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:12:31 [INFO] - Model Number: 136 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:12:31 [INFO] - Model Number: 137 with model SectionalMotif in generation 5 of 20
+2025-06-15 00:18:21 [INFO] - Model Number: 138 with model GLS in generation 5 of 20
+2025-06-15 00:24:13 [INFO] - Model Number: 139 with model GLS in generation 5 of 20
+2025-06-15 00:29:29 [INFO] - Model Number: 140 with model GLS in generation 5 of 20
+2025-06-15 00:29:29 [INFO] - Model Number: 141 with model GLS in generation 5 of 20
+2025-06-15 00:29:29 [INFO] - Model Number: 142 with model GLS in generation 5 of 20
+2025-06-15 00:29:30 [INFO] - Model Number: 143 with model GLS in generation 5 of 20
+2025-06-15 00:35:18 [INFO] - Model Number: 144 with model GLS in generation 5 of 20
+2025-06-15 00:35:19 [INFO] - Model Number: 145 with model GLS in generation 5 of 20
+2025-06-15 00:52:58 [INFO] - Model Number: 146 with model GLS in generation 5 of 20
+2025-06-15 00:52:58 [INFO] - Model Number: 147 with model GLS in generation 5 of 20
+2025-06-15 00:52:58 [INFO] - Model Number: 148 with model GLS in generation 5 of 20
+2025-06-15 00:52:59 [INFO] - Model Number: 149 with model GLS in generation 5 of 20
+2025-06-15 00:53:01 [INFO] - Model Number: 150 with model SeasonalityMotif in generation 5 of 20
+2025-06-15 00:53:04 [INFO] - Model Number: 151 with model SeasonalityMotif in generation 5 of 20
+2025-06-15 00:53:04 [INFO] - Model Number: 152 with model LastValueNaive in generation 5 of 20
+2025-06-15 00:53:13 [INFO] - Model Number: 153 with model LastValueNaive in generation 5 of 20
+2025-06-15 00:53:13 [INFO] - Model Number: 154 with model LastValueNaive in generation 5 of 20
+2025-06-15 00:53:14 [INFO] - Model Number: 155 with model SeasonalityMotif in generation 5 of 20
+2025-06-15 00:53:16 [INFO] - Model Number: 156 with model SeasonalityMotif in generation 5 of 20
+2025-06-15 00:53:16 [INFO] - Model Number: 157 with model LastValueNaive in generation 5 of 20
+2025-06-15 00:53:18 [INFO] - Model Number: 158 with model SeasonalityMotif in generation 5 of 20
+2025-06-15 00:53:18 [INFO] - Model Number: 159 with model SeasonalityMotif in generation 5 of 20
+2025-06-15 00:53:23 [INFO] - Model Number: 160 with model SeasonalityMotif in generation 5 of 20
+2025-06-15 00:57:33 [INFO] - Model Number: 161 with model LastValueNaive in generation 5 of 20
+2025-06-15 00:57:33 [INFO] - New Generation: 6 of 20
+Model Number: 162 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:33 [INFO] - Model Number: 163 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:33 [INFO] - Model Number: 164 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:35 [INFO] - Model Number: 165 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:35 [INFO] - Model Number: 166 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:35 [INFO] - Model Number: 167 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:35 [INFO] - Model Number: 168 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:35 [INFO] - Model Number: 169 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:35 [INFO] - Model Number: 170 with model SectionalMotif in generation 6 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params ffill {'0': {'window_size': 90, 'alpha': 2.5, 'grouping_forward_limit': 5, 'max_level_shifts': 8, 'alignment': 'rolling_diff_5nn'}, '1': {'method': 'remove', 'std_threshold': 2, 'fillna': 'rolling_mean_24'}, '2': {'decomp_type': 'STL', 'part': 'trend', 'seasonal': 1439}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 170 in generation 6: SectionalMotif
+Model Number: 171 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:35 [INFO] - Model Number: 172 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:39 [INFO] - Model Number: 173 with model SectionalMotif in generation 6 of 20
+2025-06-15 00:57:42 [INFO] - Model Number: 174 with model SectionalMotif in generation 6 of 20
+2025-06-15 01:02:52 [INFO] - Model Number: 175 with model GLS in generation 6 of 20
+2025-06-15 01:08:11 [INFO] - Model Number: 176 with model GLS in generation 6 of 20
+2025-06-15 01:08:11 [INFO] - Model Number: 177 with model GLS in generation 6 of 20
+2025-06-15 01:18:25 [INFO] - Model Number: 178 with model GLS in generation 6 of 20
+2025-06-15 01:18:26 [INFO] - Model Number: 179 with model GLS in generation 6 of 20
+2025-06-15 01:24:25 [INFO] - Model Number: 180 with model GLS in generation 6 of 20
+2025-06-15 01:24:25 [INFO] - Model Number: 181 with model GLS in generation 6 of 20
+2025-06-15 01:24:25 [INFO] - Model Number: 182 with model GLS in generation 6 of 20
+2025-06-15 01:24:26 [INFO] - Model Number: 183 with model GLS in generation 6 of 20
+2025-06-15 01:29:51 [INFO] - Model Number: 184 with model GLS in generation 6 of 20
+2025-06-15 01:29:51 [INFO] - Model Number: 185 with model GLS in generation 6 of 20
+2025-06-15 01:29:53 [INFO] - Model Number: 186 with model GLS in generation 6 of 20
+Template Eval Error: Exception("Transformer ReplaceConstant failed on fit from params ffill {'0': {'constant': 0, 'reintroduction_model': {'model': 'SGD', 'model_params': {}, 'datepart_method': 'common_fourier'}, 'fillna': 'linear'}, '1': {}, '2': {'decimals': 2, 'on_transform': False, 'on_inverse': True}, '3': {'whiten': False, 'n_components': None}} with error ValueError('The number of classes has to be greater than one; got 1 class')") in model 186 in generation 6: GLS
+Model Number: 187 with model SeasonalityMotif in generation 6 of 20
+2025-06-15 01:29:54 [INFO] - Model Number: 188 with model SeasonalityMotif in generation 6 of 20
+2025-06-15 01:29:56 [INFO] - Model Number: 189 with model SeasonalityMotif in generation 6 of 20
+2025-06-15 01:29:57 [INFO] - Model Number: 190 with model SeasonalityMotif in generation 6 of 20
+2025-06-15 01:29:57 [INFO] - Model Number: 191 with model LastValueNaive in generation 6 of 20
+2025-06-15 01:29:57 [INFO] - Model Number: 192 with model LastValueNaive in generation 6 of 20
+2025-06-15 01:29:59 [INFO] - Model Number: 193 with model SeasonalityMotif in generation 6 of 20
+2025-06-15 01:30:00 [INFO] - Model Number: 194 with model SeasonalityMotif in generation 6 of 20
+2025-06-15 01:30:00 [INFO] - Model Number: 195 with model LastValueNaive in generation 6 of 20
+2025-06-15 01:30:00 [INFO] - Model Number: 196 with model LastValueNaive in generation 6 of 20
+2025-06-15 01:30:08 [INFO] - Model Number: 197 with model SeasonalityMotif in generation 6 of 20
+2025-06-15 01:30:08 [INFO] - Model Number: 198 with model LastValueNaive in generation 6 of 20
+2025-06-15 01:30:08 [INFO] - Model Number: 199 with model SeasonalityMotif in generation 6 of 20
+Template Eval Error: Exception("Transformer FIRFilter failed on fit from params zero {'0': {'method': 'clip', 'std_threshold': 3, 'fillna': None}, '1': {}, '2': {'decimals': 2, 'on_transform': False, 'on_inverse': True}, '3': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'max'}, '4': {}, '5': {'numtaps': 1024, 'cutoff_hz': 10, 'window': 'kaiser', 'sampling_frequency': 12, 'on_transform': True, 'on_inverse': False, 'bounds_only': False}} with error ValueError('Invalid cutoff frequency: frequencies must be greater than 0 and less than fs/2.')") in model 199 in generation 6: SeasonalityMotif
+Model Number: 200 with model LastValueNaive in generation 6 of 20
+2025-06-15 01:30:08 [INFO] - New Generation: 7 of 20
+Model Number: 201 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:30:08 [INFO] - Model Number: 202 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:30:08 [INFO] - Model Number: 203 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:30:08 [INFO] - Model Number: 204 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:30:08 [INFO] - Model Number: 205 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:30:08 [INFO] - Model Number: 206 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:32:13 [INFO] - Model Number: 207 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:34:18 [INFO] - Model Number: 208 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:34:18 [INFO] - Model Number: 209 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:34:18 [INFO] - Model Number: 210 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:34:18 [INFO] - Model Number: 211 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:34:18 [INFO] - Model Number: 212 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:34:18 [INFO] - Model Number: 213 with model SectionalMotif in generation 7 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params akima {'0': {'rows': 1, 'lag': 7, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '1': {'threshold': 0.9, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': True, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': True, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'med_diff', 'method_params': {'distribution': 'beta', 'alpha': 0.03}, 'fillna': 'linear', 'transform_dict': None, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'datepart_regression', 'regression_params': {'regression_model': {'model': 'RandomForest', 'model_params': {'n_estimators': 300, 'min_samples_leaf': 1, 'bootstrap': False}}, 'datepart_method': 'simple_binarized', 'polynomial_degree': None, 'transform_dict': None, 'holiday_countries_used': False, 'lags': None, 'forward_lags': 3}}, '2': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 1, 'threshold_method': 'max'}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 213 in generation 7: SectionalMotif
+Model Number: 214 with model SectionalMotif in generation 7 of 20
+2025-06-15 01:44:58 [INFO] - Model Number: 215 with model GLS in generation 7 of 20
+2025-06-15 01:44:59 [INFO] - Model Number: 216 with model GLS in generation 7 of 20
+2025-06-15 01:44:59 [INFO] - Model Number: 217 with model GLS in generation 7 of 20
+2025-06-15 01:55:31 [INFO] - Model Number: 218 with model GLS in generation 7 of 20
+2025-06-15 01:55:31 [INFO] - Model Number: 219 with model GLS in generation 7 of 20
+2025-06-15 01:55:31 [INFO] - Model Number: 220 with model GLS in generation 7 of 20
+2025-06-15 01:55:32 [INFO] - Model Number: 221 with model GLS in generation 7 of 20
+2025-06-15 01:55:40 [INFO] - Model Number: 222 with model GLS in generation 7 of 20
+2025-06-15 02:00:46 [INFO] - Model Number: 223 with model GLS in generation 7 of 20
+2025-06-15 02:00:46 [INFO] - Model Number: 224 with model GLS in generation 7 of 20
+2025-06-15 02:00:46 [INFO] - Model Number: 225 with model GLS in generation 7 of 20
+2025-06-15 02:10:21 [INFO] - Model Number: 226 with model GLS in generation 7 of 20
+2025-06-15 02:10:21 [INFO] - Model Number: 227 with model SeasonalityMotif in generation 7 of 20
+2025-06-15 02:10:22 [INFO] - Model Number: 228 with model SeasonalityMotif in generation 7 of 20
+2025-06-15 02:10:24 [INFO] - Model Number: 229 with model SeasonalityMotif in generation 7 of 20
+2025-06-15 02:10:27 [INFO] - Model Number: 230 with model SeasonalityMotif in generation 7 of 20
+2025-06-15 02:10:27 [INFO] - Model Number: 231 with model LastValueNaive in generation 7 of 20
+2025-06-15 02:10:27 [INFO] - Model Number: 232 with model LastValueNaive in generation 7 of 20
+2025-06-15 02:10:36 [INFO] - Model Number: 233 with model SeasonalityMotif in generation 7 of 20
+2025-06-15 02:10:37 [INFO] - Model Number: 234 with model SeasonalityMotif in generation 7 of 20
+2025-06-15 02:10:45 [INFO] - Model Number: 235 with model SeasonalityMotif in generation 7 of 20
+2025-06-15 02:10:45 [INFO] - Model Number: 236 with model LastValueNaive in generation 7 of 20
+2025-06-15 02:10:45 [INFO] - Model Number: 237 with model LastValueNaive in generation 7 of 20
+2025-06-15 02:10:47 [INFO] - Model Number: 238 with model SeasonalityMotif in generation 7 of 20
+2025-06-15 02:10:47 [INFO] - Model Number: 239 with model LastValueNaive in generation 7 of 20
+2025-06-15 02:10:47 [INFO] - Model Number: 240 with model LastValueNaive in generation 7 of 20
+2025-06-15 02:10:55 [INFO] - New Generation: 8 of 20
+Model Number: 241 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:10:55 [INFO] - Model Number: 242 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:10:57 [INFO] - Model Number: 243 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:10:57 [INFO] - Model Number: 244 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:10:57 [INFO] - Model Number: 245 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:10:57 [INFO] - Model Number: 246 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:10:57 [INFO] - Model Number: 247 with model SectionalMotif in generation 8 of 20
+Template Eval Error: ValueError("regression_type=='User' but no future_regressor supplied") in model 247 in generation 8: SectionalMotif
+Model Number: 248 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:10:57 [INFO] - Model Number: 249 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:15:10 [INFO] - Model Number: 250 with model SectionalMotif in generation 8 of 20
+Template Eval Error: ValueError('Model SectionalMotif returned NaN for one or more series. fail_on_forecast_nan=True') in model 250 in generation 8: SectionalMotif
+Model Number: 251 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:15:10 [INFO] - Model Number: 252 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:15:10 [INFO] - Model Number: 253 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:15:10 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (96,1) (48,1) ') in model 253 in generation 8: SectionalMotif
+Model Number: 254 with model SectionalMotif in generation 8 of 20
+2025-06-15 02:15:11 [INFO] - Model Number: 255 with model GLS in generation 8 of 20
+2025-06-15 02:25:38 [INFO] - Model Number: 256 with model GLS in generation 8 of 20
+2025-06-15 02:35:00 [INFO] - Model Number: 257 with model GLS in generation 8 of 20
+2025-06-15 02:39:53 [INFO] - Model Number: 258 with model GLS in generation 8 of 20
+2025-06-15 02:49:34 [INFO] - Model Number: 259 with model GLS in generation 8 of 20
+2025-06-15 03:03:45 [INFO] - Model Number: 260 with model GLS in generation 8 of 20
+2025-06-15 03:03:45 [INFO] - Model Number: 261 with model GLS in generation 8 of 20
+2025-06-15 03:03:45 [INFO] - Model Number: 262 with model GLS in generation 8 of 20
+2025-06-15 03:08:41 [INFO] - Model Number: 263 with model GLS in generation 8 of 20
+2025-06-15 03:14:32 [INFO] - Model Number: 264 with model GLS in generation 8 of 20
+2025-06-15 03:19:32 [INFO] - Model Number: 265 with model GLS in generation 8 of 20
+2025-06-15 03:19:32 [INFO] - Model Number: 266 with model LastValueNaive in generation 8 of 20
+2025-06-15 03:19:32 [INFO] - Model Number: 267 with model LastValueNaive in generation 8 of 20
+2025-06-15 03:23:09 [INFO] - Model Number: 268 with model SeasonalityMotif in generation 8 of 20
+2025-06-15 03:23:29 [INFO] - Model Number: 269 with model SeasonalityMotif in generation 8 of 20
+2025-06-15 03:23:31 [INFO] - Model Number: 270 with model SeasonalityMotif in generation 8 of 20
+2025-06-15 03:23:32 [INFO] - Model Number: 271 with model SeasonalityMotif in generation 8 of 20
+2025-06-15 03:23:32 [INFO] - Model Number: 272 with model LastValueNaive in generation 8 of 20
+Template Eval Error: Exception("Transformer Detrend failed on fit from params mean {'0': {}, '1': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'max'}, '2': {'model': 'Linear', 'phi': 1, 'window': 365, 'transform_dict': {'fillna': 'mean', 'transformations': {'0': 'AlignLastValue', '1': 'CenterSplit'}, 'transformation_params': {'0': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': True, 'threshold': 1, 'threshold_method': 'max'}, '1': {'fillna': 'mean', 'center': 'zero'}}}}} with error ValueError('Unable to coerce to DataFrame, shape must be (90595, 1): given (90595, 2)')") in model 272 in generation 8: LastValueNaive
+Model Number: 273 with model LastValueNaive in generation 8 of 20
+2025-06-15 03:23:33 [INFO] - Model Number: 274 with model SeasonalityMotif in generation 8 of 20
+2025-06-15 03:23:35 [INFO] - Model Number: 275 with model SeasonalityMotif in generation 8 of 20
+2025-06-15 03:23:35 [INFO] - Model Number: 276 with model LastValueNaive in generation 8 of 20
+2025-06-15 03:23:37 [INFO] - Model Number: 277 with model LastValueNaive in generation 8 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params ffill_mean_biased {'0': {'method': 'remove', 'std_threshold': 2, 'fillna': 'rolling_mean_24'}, '1': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': False, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'rolling_zscore', 'method_params': {'distribution': 'norm', 'alpha': 0.05, 'rolling_periods': 90, 'center': False}, 'fillna': 'ffill', 'transform_dict': {'fillna': None, 'transformations': {'0': 'EWMAFilter'}, 'transformation_params': {'0': {'span': 7}}}, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'anomaly_score', 'regression_params': {}}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 277 in generation 8: LastValueNaive
+Model Number: 278 with model SeasonalityMotif in generation 8 of 20
+2025-06-15 03:23:37 [INFO] - Model Number: 279 with model LastValueNaive in generation 8 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params linear {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'decomp_type': 'STL', 'part': 'trend', 'seasonal': 167}, '2': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 279 in generation 8: LastValueNaive
+New Generation: 9 of 20
+Model Number: 280 with model SectionalMotif in generation 9 of 20
+2025-06-15 03:23:37 [INFO] - Model Number: 281 with model SectionalMotif in generation 9 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params nearest {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'decomp_type': 'STL', 'part': 'trend', 'seasonal': 7}, '2': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '3': {'output_distribution': 'normal', 'n_quantiles': 1000}, '4': {'decomp_type': 'STL', 'part': 'trend', 'seasonal': 7}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 281 in generation 9: SectionalMotif
+Model Number: 282 with model SectionalMotif in generation 9 of 20
+Template Eval Error: Exception("Transformer QuantileTransformer failed on fit from params linear {'0': {}, '1': {'lag_1': 12, 'method': 5}, '2': {'lag_1': 96, 'method': 'LastValue'}, '3': {'output_distribution': 'normal', 'n_quantiles': 22648}} with error ValueError('The number of quantiles cannot be greater than the number of samples used. Got 22648 quantiles and 10000 samples.')") in model 282 in generation 9: SectionalMotif
+Model Number: 283 with model SectionalMotif in generation 9 of 20
+2025-06-15 03:23:37 [INFO] - Model Number: 284 with model SectionalMotif in generation 9 of 20
+2025-06-15 03:27:13 [INFO] - Model Number: 285 with model SectionalMotif in generation 9 of 20
+2025-06-15 03:32:52 [INFO] - Model Number: 286 with model GLS in generation 9 of 20
+Template Eval Error: Exception("Transformer ReplaceConstant failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'lag_1': 12, 'method': 5}, '2': {'n_harmonics': 10, 'detrend': 'quadratic'}, '3': {'constant': 0, 'reintroduction_model': {'model': 'xgboost', 'model_params': {'booster': 'gblinear', 'max_depth': 2, 'eta': 0.05, 'min_child_weight': 5, 'subsample': 1, 'colsample_bylevel': 0.9, 'reg_alpha': 0, 'reg_lambda': 1, 'grow_policy': 'lossguide'}, 'datepart_method': 'expanded'}, 'fillna': 'akima'}, '4': {'window': None}, '5': {'numtaps': 512, 'cutoff_hz': 20, 'window': 'boxcar', 'sampling_frequency': 4, 'on_transform': True, 'on_inverse': False, 'bounds_only': False}} with error ValueError('Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]')") in model 286 in generation 9: GLS
+Model Number: 287 with model GLS in generation 9 of 20
+2025-06-15 03:38:20 [INFO] - Model Number: 288 with model GLS in generation 9 of 20
+2025-06-15 03:38:20 [INFO] - Model Number: 289 with model SectionalMotif in generation 9 of 20
+2025-06-15 03:38:20 [INFO] - Model Number: 290 with model SectionalMotif in generation 9 of 20
+2025-06-15 03:38:21 [INFO] - Model Number: 291 with model SectionalMotif in generation 9 of 20
+2025-06-15 03:38:21 [INFO] - Model Number: 292 with model SectionalMotif in generation 9 of 20
+2025-06-15 03:38:21 [INFO] - Model Number: 293 with model SectionalMotif in generation 9 of 20
+2025-06-15 03:38:45 [INFO] - Model Number: 294 with model GLS in generation 9 of 20
+2025-06-15 03:43:55 [INFO] - Model Number: 295 with model GLS in generation 9 of 20
+2025-06-15 03:44:10 [INFO] - Model Number: 296 with model GLS in generation 9 of 20
+2025-06-15 03:44:10 [INFO] - Model Number: 297 with model GLS in generation 9 of 20
+2025-06-15 03:49:14 [INFO] - Model Number: 298 with model GLS in generation 9 of 20
+2025-06-15 03:49:14 [INFO] - Model Number: 299 with model GLS in generation 9 of 20
+2025-06-15 03:54:19 [INFO] - Model Number: 300 with model GLS in generation 9 of 20
+2025-06-15 03:56:41 [INFO] - Model Number: 301 with model GLS in generation 9 of 20
+SVD did not converge, attempting more robust approach...
+Template Eval Error: Exception("Transformer KalmanSmoothing failed on fit from params mean {'0': {'model_name': 'factor', 'state_transition': [[1, 1, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 1, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1]], 'process_noise': [[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0]], 'observation_model': [[1, 0, 0, 0, 0, 0]], 'observation_noise': 0.04, 'em_iter': 10, 'on_transform': True, 'on_inverse': False}, '1': {'lag_1': 12, 'method': 5}, '2': {'rows': 1, 'lag': 1, 'method': 'multiplicative', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'max'}, '3': {'rows': 1, 'lag': 2, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': None, 'threshold_method': 'max'}} with error LinAlgError('SVD did not converge')") in model 301 in generation 9: GLS
+Model Number: 302 with model GLS in generation 9 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params linear {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'threshold': 0.8, 'splash_threshold': 0.65, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': False, 'use_wkdeom_holidays': False, 'use_lunar_holidays': True, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': True, 'anomaly_detector_params': {'method': 'rolling_zscore', 'method_params': {'distribution': 'gamma', 'alpha': 0.05, 'rolling_periods': 300, 'center': True}, 'fillna': 'ffill', 'transform_dict': None, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'median_value', 'regression_params': {}}, '2': {'constraint_method': 'dampening', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': 0.99, 'bounds_only': False, 'fillna': None}, '3': {'rows': 28, 'displacement_rows': 1, 'quantile': 1.0, 'decay_span': 3}, '4': {'span': 1440}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 302 in generation 9: GLS
+Model Number: 303 with model LastValueNaive in generation 9 of 20
+2025-06-15 03:56:41 [INFO] - Model Number: 304 with model LastValueNaive in generation 9 of 20
+2025-06-15 03:56:42 [INFO] - Model Number: 305 with model SeasonalityMotif in generation 9 of 20
+2025-06-15 03:56:45 [INFO] - Model Number: 306 with model SeasonalityMotif in generation 9 of 20
+2025-06-15 03:56:46 [INFO] - Model Number: 307 with model SeasonalityMotif in generation 9 of 20
+2025-06-15 03:56:49 [INFO] - Model Number: 308 with model SeasonalityMotif in generation 9 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params linear {'0': {'threshold': 0.9, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'zscore', 'method_params': {'distribution': 'chi2', 'alpha': 0.05}, 'fillna': 'linear', 'transform_dict': {'transformations': {'0': 'DatepartRegression'}, 'transformation_params': {'0': {'datepart_method': 'simple_3', 'regression_model': {'model': 'DecisionTree', 'model_params': {'max_depth': None, 'min_samples_split': 0.1}}}}}, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'regression', 'regression_params': {}}, '1': {'model': 'Linear', 'phi': 1, 'window': None, 'transform_dict': None}, '2': {}, '3': {}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 308 in generation 9: SeasonalityMotif
+Model Number: 309 with model SeasonalityMotif in generation 9 of 20
+2025-06-15 03:56:53 [INFO] - Model Number: 310 with model SeasonalityMotif in generation 9 of 20
+2025-06-15 03:56:53 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (192,1) (48,1) ') in model 310 in generation 9: SeasonalityMotif
+Model Number: 311 with model LastValueNaive in generation 9 of 20
+2025-06-15 03:56:53 [INFO] - Model Number: 312 with model SeasonalityMotif in generation 9 of 20
+2025-06-15 03:56:54 [INFO] - Model Number: 313 with model SeasonalityMotif in generation 9 of 20
+2025-06-15 03:56:54 [INFO] - Model Number: 314 with model LastValueNaive in generation 9 of 20
+2025-06-15 03:56:54 [INFO] - Model Number: 315 with model LastValueNaive in generation 9 of 20
+2025-06-15 03:56:54 [INFO] - New Generation: 10 of 20
+Model Number: 316 with model SectionalMotif in generation 10 of 20
+2025-06-15 03:56:54 [INFO] - Model Number: 317 with model SectionalMotif in generation 10 of 20
+Template Eval Error: Exception("Transformer BTCD failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'lag_1': 12, 'method': 5}, '2': {'regression_model': {'model': 'LinearRegression', 'model_params': {}}, 'max_lags': 2}} with error ValueError('BTCD only works on multivarate series')") in model 317 in generation 10: SectionalMotif
+Model Number: 318 with model SectionalMotif in generation 10 of 20
+2025-06-15 03:56:54 [INFO] - Model Number: 319 with model SectionalMotif in generation 10 of 20
+2025-06-15 03:56:54 [INFO] - Model Number: 320 with model SectionalMotif in generation 10 of 20
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+Template Eval Error: ValueError('Model SectionalMotif returned improper forecast_length. Returned: 46 and requested: 48') in model 320 in generation 10: SectionalMotif
+Model Number: 321 with model SectionalMotif in generation 10 of 20
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+Template Eval Error: ValueError('Model SectionalMotif returned improper forecast_length. Returned: 46 and requested: 48') in model 321 in generation 10: SectionalMotif
+Model Number: 322 with model SectionalMotif in generation 10 of 20
+2025-06-15 03:56:54 [INFO] - Model Number: 323 with model SectionalMotif in generation 10 of 20
+2025-06-15 03:56:55 [INFO] - Model Number: 324 with model SectionalMotif in generation 10 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params ffill {'0': {'rows': None, 'displacement_rows': 1, 'quantile': 0.9, 'decay_span': None}, '1': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'rolling_zscore', 'method_params': {'distribution': 'uniform', 'alpha': 0.03, 'rolling_periods': 28, 'center': False}, 'fillna': 'rolling_mean_24', 'transform_dict': None, 'isolated_only': True, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'median_value', 'regression_params': {}}, '2': {'rows': 1, 'lag': 7, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 1, 'threshold_method': 'mean'}, '3': {'constant': 0, 'reintroduction_model': {'model': 'SGD', 'model_params': {}, 'datepart_method': 'common_fourier'}, 'fillna': 'akima'}, '4': {'lag_1': 10, 'method': 'LastValue'}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 324 in generation 10: SectionalMotif
+Model Number: 325 with model SectionalMotif in generation 10 of 20
+2025-06-15 04:02:25 [INFO] - Model Number: 326 with model SectionalMotif in generation 10 of 20
+Template Eval Error: Exception("Transformer UpscaleDownscaleTransformer failed on fit from params ffill {'0': {'method': 0.9}, '1': {'mode': 'upscale', 'factor': 6, 'down_method': 'mean', 'fill_method': 'cubic'}, '2': {'rows': 28}} with error ValueError('The number of derivatives at boundaries does not match: expected 2, got 0+0')") in model 326 in generation 10: SectionalMotif
+Model Number: 327 with model SectionalMotif in generation 10 of 20
+Template Eval Error: Exception("Transformer UpscaleDownscaleTransformer failed on fit from params fake_date {'0': {}, '1': {'mode': 'upscale', 'factor': 6, 'down_method': 'mean', 'fill_method': 'cubic'}} with error ValueError('The number of derivatives at boundaries does not match: expected 2, got 0+0')") in model 327 in generation 10: SectionalMotif
+Model Number: 328 with model GLS in generation 10 of 20
+2025-06-15 04:02:25 [INFO] - Model Number: 329 with model GLS in generation 10 of 20
+Template Eval Error: Exception("Transformer BTCD failed on fit from params linear {'0': {'regression_model': {'model': 'FastRidge', 'model_params': {}}, 'max_lags': 2}, '1': {'lag_1': 12, 'method': 5}, '2': {'low': 12, 'high': 32, 'K': 1, 'lanczos_factor': False, 'return_diff': True, 'on_transform': False, 'on_inverse': True}, '3': {'rows': 28, 'displacement_rows': 1, 'quantile': 1.0, 'decay_span': 3}, '4': {'window': None}} with error ValueError('BTCD only works on multivarate series')") in model 329 in generation 10: GLS
+Model Number: 330 with model SectionalMotif in generation 10 of 20
+2025-06-15 04:02:25 [INFO] - Model Number: 331 with model SectionalMotif in generation 10 of 20
+2025-06-15 04:02:25 [INFO] - Model Number: 332 with model SectionalMotif in generation 10 of 20
+2025-06-15 04:02:57 [INFO] - Model Number: 333 with model GLS in generation 10 of 20
+2025-06-15 04:03:13 [INFO] - Model Number: 334 with model GLS in generation 10 of 20
+2025-06-15 11:47:03 [INFO] - Model Number: 335 with model GLS in generation 10 of 20
+Template Eval Error: Exception("Transformer SinTrend failed on fit from params ffill {'0': {'method': None, 'method_params': None, 'transform_dict': None, 'reverse_alignment': True, 'isolated_only': False, 'fillna': 1.5}, '1': {'model_name': 'local_linear_trend_ets_aan', 'state_transition': [[1, 1], [0, 1]], 'process_noise': [[0.7, 0.0], [0.0, 0.6]], 'observation_model': [[1, 0]], 'observation_noise': 0.05, 'em_iter': None, 'on_transform': True, 'on_inverse': False}, '2': {'rows': 28, 'displacement_rows': 1, 'quantile': 1.0, 'decay_span': 3}, '3': {}} with error RuntimeError('Optimal parameters not found: Number of calls to function has reached maxfev = 10000.')") in model 335 in generation 10: GLS
+Model Number: 336 with model GLS in generation 10 of 20
+2025-06-15 12:15:37 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (240,1) (48,1) ') in model 336 in generation 10: GLS
+Model Number: 337 with model GLS in generation 10 of 20
+2025-06-15 12:15:49 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (240,1) (48,1) ') in model 337 in generation 10: GLS
+Model Number: 338 with model GLS in generation 10 of 20
+2025-06-15 12:21:17 [INFO] - Model Number: 339 with model GLS in generation 10 of 20
+2025-06-15 12:21:33 [INFO] - Model Number: 340 with model GLS in generation 10 of 20
+2025-06-15 12:21:33 [INFO] - Model Number: 341 with model GLS in generation 10 of 20
+2025-06-15 12:21:33 [INFO] - Model Number: 342 with model LastValueNaive in generation 10 of 20
+2025-06-15 12:21:33 [INFO] - Model Number: 343 with model LastValueNaive in generation 10 of 20
+2025-06-15 12:21:54 [INFO] - Model Number: 344 with model SeasonalityMotif in generation 10 of 20
+2025-06-15 12:22:06 [INFO] - Model Number: 345 with model SeasonalityMotif in generation 10 of 20
+2025-06-15 12:22:07 [INFO] - Model Number: 346 with model SeasonalityMotif in generation 10 of 20
+2025-06-15 12:22:21 [INFO] - Model Number: 347 with model SeasonalityMotif in generation 10 of 20
+Template Eval Error: Exception("Transformer ReplaceConstant failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'lag_1': 12, 'method': 5}, '2': {'constant': 0, 'reintroduction_model': {'model': 'xgboost', 'model_params': {'booster': 'gblinear', 'max_depth': 3, 'eta': 0.03, 'min_child_weight': 1, 'subsample': 1, 'colsample_bylevel': 0.9, 'reg_alpha': 0.05, 'reg_lambda': 1, 'n_estimators': 4, 'quantile_alpha': 0.5, 'tree_method': 'hist'}, 'datepart_method': 'expanded_binarized'}, 'fillna': 'ffill'}, '3': {'det_order': 0, 'k_ar_diff': 0}, '4': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 1, 'threshold_method': 'max'}, '5': {}} with error ValueError('Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]')") in model 347 in generation 10: SeasonalityMotif
+Model Number: 348 with model SeasonalityMotif in generation 10 of 20
+2025-06-15 12:22:21 [INFO] - Model Number: 349 with model SeasonalityMotif in generation 10 of 20
+Template Eval Error: Exception("Transformer ReplaceConstant failed on fit from params ffill_mean_biased {'0': {'low': 6, 'high': 90, 'K': 1, 'lanczos_factor': False, 'return_diff': True, 'on_transform': True, 'on_inverse': False}, '1': {'constant': 0, 'reintroduction_model': {'model': 'xgboost', 'model_params': {'booster': 'gbtree', 'max_depth': 2, 'eta': 0.3, 'min_child_weight': 1, 'subsample': 1, 'colsample_bylevel': 1, 'reg_alpha': 0, 'reg_lambda': 1, 'n_estimators': 4, 'multi_strategy': 'multi_output_tree', 'tree_method': 'hist'}, 'datepart_method': ['morlet_365.25_12_12', 'ricker_7_7_1']}, 'fillna': 'mean'}, '2': {'rows': 24, 'lag': 28, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 3, 'threshold_method': 'max'}, '3': {'method': 'clip', 'std_threshold': 3, 'fillna': None}} with error ValueError('Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]')") in model 349 in generation 10: SeasonalityMotif
+Model Number: 350 with model LastValueNaive in generation 10 of 20
+2025-06-15 12:22:23 [INFO] - Model Number: 351 with model SeasonalityMotif in generation 10 of 20
+2025-06-15 12:22:25 [INFO] - Model Number: 352 with model SeasonalityMotif in generation 10 of 20
+2025-06-15 12:22:25 [INFO] - Model Number: 353 with model LastValueNaive in generation 10 of 20
+2025-06-15 12:22:25 [INFO] - Model Number: 354 with model LastValueNaive in generation 10 of 20
+2025-06-15 12:22:25 [INFO] - Model Number: 355 with model LastValueNaive in generation 10 of 20
+2025-06-15 12:22:25 [INFO] - New Generation: 11 of 20
+Model Number: 356 with model SectionalMotif in generation 11 of 20
+Template Eval Error: ValueError("regression_type=='User' but no future_regressor supplied") in model 356 in generation 11: SectionalMotif
+Model Number: 357 with model SectionalMotif in generation 11 of 20
+2025-06-15 12:22:25 [INFO] - Model Number: 358 with model SectionalMotif in generation 11 of 20
+2025-06-15 12:22:26 [INFO] - Model Number: 359 with model SectionalMotif in generation 11 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params rolling_mean_24 {'0': {'model': 'Gamma', 'phi': 1, 'window': None, 'transform_dict': None}, '1': {'lag_1': 12, 'method': 5}, '2': {'decomp_type': 'STL', 'part': 'trend', 'seasonal': 9}, '3': {'method': 'remove', 'std_threshold': 3, 'fillna': 'mean'}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 359 in generation 11: SectionalMotif
+Model Number: 360 with model SectionalMotif in generation 11 of 20
+2025-06-15 12:22:59 [INFO] - Model Number: 361 with model SectionalMotif in generation 11 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params rolling_mean {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'model': 'Linear', 'phi': 1, 'window': 90, 'transform_dict': None}, '2': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '3': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'nonparametric', 'method_params': {'p': None, 'z_init': 2.0, 'z_limit': 10, 'z_step': 0.5, 'inverse': False, 'max_contamination': 0.25, 'mean_weight': 25, 'sd_weight': 100, 'anomaly_count_weight': 1.0}, 'fillna': 'ffill', 'transform_dict': {'transformations': {'0': 'DifferencedTransformer'}, 'transformation_params': {'0': {}}}, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'regression', 'regression_params': {}}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 361 in generation 11: SectionalMotif
+Model Number: 362 with model SectionalMotif in generation 11 of 20
+Template Eval Error: Exception("Transformer HolidayTransformer failed on fit from params rolling_mean {'0': {'model': 'Tweedie', 'changepoint_spacing': 180, 'changepoint_distance_end': 360, 'datepart_method': ['dayofweek', [365.25, 14]]}, '1': {'model': 'Linear', 'phi': 1, 'window': 90, 'transform_dict': None}, '2': {'rows': 7}, '3': {'rows': 1, 'lag': 28, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '4': {'threshold': 0.8, 'splash_threshold': None, 'use_dayofmonth_holidays': True, 'use_wkdom_holidays': True, 'use_wkdeom_holidays': False, 'use_lunar_holidays': False, 'use_lunar_weekday': False, 'use_islamic_holidays': False, 'use_hebrew_holidays': False, 'use_hindu_holidays': False, 'anomaly_detector_params': {'method': 'nonparametric', 'method_params': {'p': None, 'z_init': 2.0, 'z_limit': 10, 'z_step': 0.5, 'inverse': False, 'max_contamination': 0.25, 'mean_weight': 25, 'sd_weight': 100, 'anomaly_count_weight': 1.0}, 'fillna': 'ffill', 'transform_dict': {'transformations': {'0': 'DifferencedTransformer'}, 'transformation_params': {'0': {}}}, 'isolated_only': False, 'on_inverse': False}, 'remove_excess_anomalies': True, 'impact': 'regression', 'regression_params': {}}} with error ValueError('more than 1 year of data is required for holiday detection.')") in model 362 in generation 11: SectionalMotif
+Model Number: 363 with model SectionalMotif in generation 11 of 20
+2025-06-15 12:22:59 [INFO] - Model Number: 364 with model SectionalMotif in generation 11 of 20
+2025-06-15 12:22:59 [INFO] - Model Number: 365 with model GLS in generation 11 of 20
+2025-06-15 12:28:32 [INFO] - Model Number: 366 with model GLS in generation 11 of 20
+2025-06-15 12:28:47 [INFO] - Model Number: 367 with model GLS in generation 11 of 20
+2025-06-15 12:28:48 [INFO] - Model Number: 368 with model SectionalMotif in generation 11 of 20
+Template Eval Error: Exception("Transformer QuantileTransformer failed on fit from params ffill_mean_biased {'0': {}, '1': {'rows': 4, 'lag': 7, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': None, 'threshold_method': 'mean'}, '2': {'constraint_method': 'dampening', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': 0.9999, 'bounds_only': False, 'fillna': None}, '3': {'output_distribution': 'uniform', 'n_quantiles': 18119}} with error ValueError('The number of quantiles cannot be greater than the number of samples used. Got 18119 quantiles and 10000 samples.')") in model 368 in generation 11: SectionalMotif
+Model Number: 369 with model SectionalMotif in generation 11 of 20
+Template Eval Error: Exception("Transformer QuantileTransformer failed on fit from params ffill_mean_biased {'0': {}, '1': {'rows': 4, 'lag': 7, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': None, 'threshold_method': 'mean'}, '2': {'constraint_method': 'dampening', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': 0.9999, 'bounds_only': False, 'fillna': None}, '3': {'output_distribution': 'uniform', 'n_quantiles': 18119}, '4': {'mode': 'upscale', 'factor': 4, 'down_method': 'mean', 'fill_method': 'akima'}} with error ValueError('The number of quantiles cannot be greater than the number of samples used. Got 18119 quantiles and 10000 samples.')") in model 369 in generation 11: SectionalMotif
+Model Number: 370 with model SectionalMotif in generation 11 of 20
+2025-06-15 12:34:28 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (240,1) (48,1) ') in model 370 in generation 11: SectionalMotif
+Model Number: 371 with model GLS in generation 11 of 20
+2025-06-15 12:40:33 [INFO] - Model Number: 372 with model GLS in generation 11 of 20
+2025-06-15 12:40:48 [INFO] - Model Number: 373 with model GLS in generation 11 of 20
+Template Eval Error: Exception("Transformer BTCD failed on fit from params ffill_mean_biased {'0': {}, '1': {'regression_model': {'model': 'FastRidge', 'model_params': {}}, 'max_lags': 2}, '2': {'n_harmonics': 10, 'detrend': 'quadratic'}, '3': {'rows': 28, 'displacement_rows': 1, 'quantile': 1.0, 'decay_span': 3}, '4': {}, '5': {}} with error ValueError('BTCD only works on multivarate series')") in model 373 in generation 11: GLS
+Model Number: 374 with model GLS in generation 11 of 20
+2025-06-15 12:41:05 [INFO] - Model Number: 375 with model GLS in generation 11 of 20
+2025-06-15 12:47:22 [INFO] - Model Number: 376 with model GLS in generation 11 of 20
+2025-06-15 12:47:33 [INFO] - Model Number: 377 with model GLS in generation 11 of 20
+Template Eval Error: Exception("Transformer Cointegration failed on fit from params linear {'0': {'method': 'savgol_filter', 'method_args': {'window_length': 91, 'polyorder': 2, 'deriv': 0, 'mode': 'nearest'}}, '1': {'lag_1': 12, 'method': 5}, '2': {'window': None}, '3': {'det_order': 1, 'k_ar_diff': 0}} with error ValueError('Coint only works on multivarate series')") in model 377 in generation 11: GLS
+Model Number: 378 with model GLS in generation 11 of 20
+2025-06-15 12:47:44 [INFO] - Model Number: 379 with model GLS in generation 11 of 20
+2025-06-15 12:47:44 [INFO] - Model Number: 380 with model LastValueNaive in generation 11 of 20
+2025-06-15 12:47:44 [INFO] - Model Number: 381 with model LastValueNaive in generation 11 of 20
+2025-06-15 12:47:46 [INFO] - Model Number: 382 with model SeasonalityMotif in generation 11 of 20
+Template Eval Error: Exception("Transformer ReplaceConstant failed on fit from params linear {'0': {'constant': 0, 'reintroduction_model': {'model': 'xgboost', 'model_params': {'booster': 'gbtree', 'max_depth': 6, 'eta': 0.003, 'min_child_weight': 1, 'subsample': 1, 'colsample_bylevel': 1, 'reg_alpha': 0.05, 'reg_lambda': 1, 'n_estimators': 100, 'grow_policy': 'lossguide'}, 'datepart_method': 'common_fourier_rw'}, 'fillna': 'pchip'}, '1': {'lag_1': 12, 'method': 5}, '2': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}} with error ValueError('Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]')") in model 382 in generation 11: SeasonalityMotif
+Model Number: 383 with model SeasonalityMotif in generation 11 of 20
+2025-06-15 12:47:47 [INFO] - Model Number: 384 with model SeasonalityMotif in generation 11 of 20
+2025-06-15 12:47:48 [INFO] - Model Number: 385 with model SeasonalityMotif in generation 11 of 20
+2025-06-15 12:47:50 [INFO] - Model Number: 386 with model SeasonalityMotif in generation 11 of 20
+2025-06-15 12:47:53 [INFO] - Model Number: 387 with model SeasonalityMotif in generation 11 of 20
+2025-06-15 12:47:53 [INFO] - Model Number: 388 with model LastValueNaive in generation 11 of 20
+2025-06-15 12:48:11 [INFO] - Model Number: 389 with model SeasonalityMotif in generation 11 of 20
+2025-06-15 12:48:12 [INFO] - Model Number: 390 with model SeasonalityMotif in generation 11 of 20
+2025-06-15 12:48:12 [INFO] - Model Number: 391 with model LastValueNaive in generation 11 of 20
+2025-06-15 12:48:12 [INFO] - Model Number: 392 with model LastValueNaive in generation 11 of 20
+2025-06-15 12:48:12 [INFO] - New Generation: 12 of 20
+Model Number: 393 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:12 [INFO] - Model Number: 394 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:13 [INFO] - Model Number: 395 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 396 with model SectionalMotif in generation 12 of 20
+Template Eval Error: ValueError("Model returned NaN due to a preprocessing transformer {'fillna': 'fake_date', 'transformations': {'0': 'LocalLinearTrend', '1': 'SeasonalDifference', '2': 'ReplaceConstant'}, 'transformation_params': {'0': {'rolling_window': 180, 'n_tails': 0.1, 'n_future': 0.05, 'method': 'median', 'macro_micro': False}, '1': {'lag_1': 12, 'method': 5}, '2': {'constant': 0, 'reintroduction_model': None, 'fillna': 'linear'}}}. fail_on_forecast_nan=True") in model 396 in generation 12: SectionalMotif
+Model Number: 397 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 398 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 399 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 400 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 401 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 402 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 403 with model GLS in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 404 with model GLS in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 405 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:48:14 [INFO] - Model Number: 406 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:52:26 [INFO] - Model Number: 407 with model SectionalMotif in generation 12 of 20
+2025-06-15 12:53:08 [INFO] - Model Number: 408 with model GLS in generation 12 of 20
+2025-06-15 12:53:56 [INFO] - Model Number: 409 with model GLS in generation 12 of 20
+2025-06-15 13:13:02 [INFO] - Model Number: 410 with model GLS in generation 12 of 20
+Template Eval Error: Exception("Transformer Cointegration failed on fit from params zero {'0': {'discretization': 'lower', 'n_bins': 10}, '1': {'model_name': 'local_linear_trend_ets_aan', 'state_transition': [[1, 1], [0, 1]], 'process_noise': [[0.7, 0.0], [0.0, 0.6]], 'observation_model': [[1, 0]], 'observation_noise': 0.05, 'em_iter': None, 'on_transform': True, 'on_inverse': False}, '2': {'det_order': -1, 'k_ar_diff': 1}, '3': {'constraint_method': 'slope', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'slope': 0.1, 'window': 30, 'window_agg': 'max', 'threshold': 0.01}, 'bounds_only': False, 'fillna': None}, '4': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 0.9, 'first_value_only': False, 'threshold': None, 'threshold_method': 'max'}, '5': {'model_name': 'randomly generated_original', 'state_transition': [[1, 0, 0, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]], 'process_noise': [[0.04, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]], 'observation_model': [[1, 1, 0, 0]], 'observation_noise': 1.0, 'em_iter': None, 'on_transform': True, 'on_inverse': False}} with error ValueError('Coint only works on multivarate series')") in model 410 in generation 12: GLS
+Model Number: 411 with model GLS in generation 12 of 20
+2025-06-15 13:18:44 [INFO] - Model Number: 412 with model GLS in generation 12 of 20
+2025-06-15 13:19:00 [INFO] - Model Number: 413 with model GLS in generation 12 of 20
+2025-06-15 13:24:58 [INFO] - Model Number: 414 with model GLS in generation 12 of 20
+2025-06-15 13:25:14 [INFO] - Model Number: 415 with model GLS in generation 12 of 20
+2025-06-15 13:25:14 [INFO] - Model Number: 416 with model GLS in generation 12 of 20
+2025-06-15 13:25:41 [INFO] - Model Number: 417 with model LastValueNaive in generation 12 of 20
+2025-06-15 13:25:41 [INFO] - Model Number: 418 with model LastValueNaive in generation 12 of 20
+2025-06-15 13:29:21 [INFO] - Model Number: 419 with model SeasonalityMotif in generation 12 of 20
+2025-06-15 13:29:22 [INFO] - Model Number: 420 with model SeasonalityMotif in generation 12 of 20
+2025-06-15 13:29:23 [INFO] - Model Number: 421 with model SeasonalityMotif in generation 12 of 20
+2025-06-15 13:29:24 [INFO] - Model Number: 422 with model SeasonalityMotif in generation 12 of 20
+2025-06-15 13:29:24 [INFO] - Model Number: 423 with model SeasonalityMotif in generation 12 of 20
+2025-06-15 13:29:25 [INFO] - Model Number: 424 with model SeasonalityMotif in generation 12 of 20
+2025-06-15 13:29:26 [INFO] - Model Number: 425 with model SeasonalityMotif in generation 12 of 20
+2025-06-15 13:29:26 [INFO] - Model Number: 426 with model LastValueNaive in generation 12 of 20
+2025-06-15 13:29:29 [INFO] - Model Number: 427 with model SeasonalityMotif in generation 12 of 20
+Template Eval Error: Exception("Transformer FastICA failed on inverse from params ffill_mean_biased {'0': {'rows': 84, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 3, 'threshold_method': 'mean'}, '1': {'algorithm': 'deflation', 'fun': 'cube', 'max_iter': 100, 'whiten': False}, '2': {'rolling_window': 30, 'n_tails': 0.1, 'n_future': 0.2, 'method': 'mean', 'macro_micro': False}} with ValueError('Input contains NaN.')") in model 427 in generation 12: SeasonalityMotif
+Model Number: 428 with model LastValueNaive in generation 12 of 20
+2025-06-15 13:29:29 [INFO] - New Generation: 13 of 20
+Model Number: 429 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:29 [INFO] - Model Number: 430 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:29 [INFO] - Model Number: 431 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:29 [INFO] - Model Number: 432 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:29 [INFO] - Model Number: 433 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:57 [INFO] - Model Number: 434 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:57 [INFO] - Model Number: 435 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:57 [INFO] - Model Number: 436 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:57 [INFO] - Model Number: 437 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:57 [INFO] - Model Number: 438 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:57 [INFO] - Model Number: 439 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:57 [INFO] - Model Number: 440 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:29:57 [INFO] - Model Number: 441 with model SectionalMotif in generation 13 of 20
+2025-06-15 13:30:09 [INFO] - Model Number: 442 with model SectionalMotif in generation 13 of 20
+Template Eval Error: ValueError('Shape of passed values is (48, 2), indices imply (48, 1)') in model 442 in generation 13: SectionalMotif
+Model Number: 443 with model GLS in generation 13 of 20
+2025-06-15 13:30:36 [INFO] - Model Number: 444 with model GLS in generation 13 of 20
+2025-06-15 13:30:48 [INFO] - Model Number: 445 with model GLS in generation 13 of 20
+2025-06-15 13:30:59 [INFO] - Model Number: 446 with model GLS in generation 13 of 20
+Template Eval Error: Exception("Transformer BTCD failed on fit from params ffill {'0': {'method': 'butter', 'method_args': {'N': 5, 'btype': 'highpass', 'analog': False, 'output': 'sos', 'Wn': 0.014492753623188406}}, '1': {'regression_model': {'model': 'LinearRegression', 'model_params': {}}, 'max_lags': 2}, '2': {'rows': 1, 'lag': 84, 'method': 'additive', 'strength': 1.0, 'first_value_only': True, 'threshold': 10, 'threshold_method': 'mean'}, '3': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '4': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': None, 'threshold_method': 'max'}} with error ValueError('BTCD only works on multivarate series')") in model 446 in generation 13: GLS
+Model Number: 447 with model GLS in generation 13 of 20
+2025-06-15 13:31:14 [INFO] - Model Number: 448 with model GLS in generation 13 of 20
+2025-06-15 13:43:06 [INFO] - Model Number: 449 with model GLS in generation 13 of 20
+2025-06-15 13:43:21 [INFO] - Model Number: 450 with model GLS in generation 13 of 20
+2025-06-15 13:43:46 [INFO] - Model Number: 451 with model GLS in generation 13 of 20
+2025-06-15 13:50:43 [INFO] - Model Number: 452 with model GLS in generation 13 of 20
+2025-06-15 13:50:56 [INFO] - Model Number: 453 with model GLS in generation 13 of 20
+2025-06-15 13:50:56 [INFO] - Model Number: 454 with model LastValueNaive in generation 13 of 20
+2025-06-15 13:50:58 [INFO] - Model Number: 455 with model SeasonalityMotif in generation 13 of 20
+2025-06-15 13:50:58 [INFO] - Model Number: 456 with model SeasonalityMotif in generation 13 of 20
+2025-06-15 13:51:00 [INFO] - Model Number: 457 with model SeasonalityMotif in generation 13 of 20
+2025-06-15 13:51:01 [INFO] - Model Number: 458 with model SeasonalityMotif in generation 13 of 20
+Template Eval Error: Exception("Transformer Cointegration failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'rows': 4, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': None, 'threshold_method': 'mean'}, '2': {'part': 'trend', 'lamb': 1600}, '3': {'span': 24}, '4': {'det_order': 1, 'k_ar_diff': 2}} with error ValueError('Coint only works on multivarate series')") in model 458 in generation 13: SeasonalityMotif
+Model Number: 459 with model SeasonalityMotif in generation 13 of 20
+2025-06-15 13:51:05 [INFO] - Model Number: 460 with model SeasonalityMotif in generation 13 of 20
+2025-06-15 13:51:09 [INFO] - Model Number: 461 with model SeasonalityMotif in generation 13 of 20
+2025-06-15 13:51:10 [INFO] - Model Number: 462 with model SeasonalityMotif in generation 13 of 20
+2025-06-15 13:51:10 [INFO] - Model Number: 463 with model LastValueNaive in generation 13 of 20
+2025-06-15 13:51:37 [INFO] - Model Number: 464 with model LastValueNaive in generation 13 of 20
+2025-06-15 13:51:37 [INFO] - Model Number: 465 with model LastValueNaive in generation 13 of 20
+2025-06-15 13:51:38 [INFO] - New Generation: 14 of 20
+Model Number: 466 with model SectionalMotif in generation 14 of 20
+2025-06-15 13:51:38 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (336,1) (48,1) ') in model 466 in generation 14: SectionalMotif
+Model Number: 467 with model SectionalMotif in generation 14 of 20
+2025-06-15 13:51:38 [INFO] - Model Number: 468 with model SectionalMotif in generation 14 of 20
+2025-06-15 13:51:38 [INFO] - Model Number: 469 with model SectionalMotif in generation 14 of 20
+2025-06-15 13:53:49 [INFO] - Model Number: 470 with model SectionalMotif in generation 14 of 20
+2025-06-15 13:53:49 [INFO] - Model Number: 471 with model SectionalMotif in generation 14 of 20
+2025-06-15 13:53:49 [INFO] - Model Number: 472 with model SectionalMotif in generation 14 of 20
+2025-06-15 13:53:49 [INFO] - Model Number: 473 with model SectionalMotif in generation 14 of 20
+2025-06-15 14:51:12 [INFO] - Model Number: 474 with model SectionalMotif in generation 14 of 20
+Template Eval Error: Exception("Transformer ReplaceConstant failed on fit from params ffill_mean_biased {'0': {}, '1': {}, '2': {'constant': 0, 'reintroduction_model': {'model': 'SGD', 'model_params': {}, 'datepart_method': 'simple'}, 'fillna': 'linear'}, '3': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}} with error ValueError('The number of classes has to be greater than one; got 1 class')") in model 474 in generation 14: SectionalMotif
+Model Number: 475 with model SectionalMotif in generation 14 of 20
+2025-06-15 16:15:07 [INFO] - Model Number: 476 with model SectionalMotif in generation 14 of 20
+Template Eval Error: Exception("Transformer ReplaceConstant failed on fit from params linear {'0': {}, '1': {}, '2': {'constant': 0, 'reintroduction_model': {'model': 'SGD', 'model_params': {}, 'datepart_method': 'simple'}, 'fillna': 'linear'}, '3': {'constant': 0, 'reintroduction_model': {'model': 'xgboost', 'model_params': {'booster': 'gblinear', 'max_depth': 3, 'eta': 0.003, 'min_child_weight': 1, 'subsample': 1, 'colsample_bylevel': 0.7, 'reg_alpha': 0, 'reg_lambda': 1, 'n_estimators': 4}, 'datepart_method': ['dayofweek', 365.25]}, 'fillna': 'akima'}} with error ValueError('The number of classes has to be greater than one; got 1 class')") in model 476 in generation 14: SectionalMotif
+Model Number: 477 with model SectionalMotif in generation 14 of 20
+2025-06-15 16:15:07 [INFO] - Model Number: 478 with model SectionalMotif in generation 14 of 20
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+2025-06-15 16:15:07 [INFO] - Model Number: 479 with model SectionalMotif in generation 14 of 20
+2025-06-15 16:16:02 [INFO] - Model Number: 480 with model GLS in generation 14 of 20
+2025-06-15 16:17:07 [INFO] - Model Number: 481 with model GLS in generation 14 of 20
+Template Eval Error: Exception("Transformer RegressionFilter failed on fit from params linear {'0': {'fixed': False, 'window': 60, 'macro_micro': False, 'center': True}, '1': {'sigma': 2, 'rolling_window': 90, 'run_order': 'trend_first', 'regression_params': {'regression_model': {'model': 'DecisionTree', 'model_params': {'max_depth': 9, 'min_samples_split': 0.05}}, 'datepart_method': 'simple_binarized', 'polynomial_degree': None, 'transform_dict': {'fillna': None, 'transformations': {'0': 'AnomalyRemoval'}, 'transformation_params': {'0': {'method': 'zscore', 'transform_dict': {'transformations': {'0': 'DatepartRegression'}, 'transformation_params': {'0': {'datepart_method': 'simple_3', 'regression_model': {'model': 'ElasticNet', 'model_params': {}}}}}, 'method_params': {'distribution': 'uniform', 'alpha': 0.05}}}}, 'holiday_countries_used': False, 'lags': 1, 'forward_lags': None}, 'holiday_params': None, 'trend_method': 'rolling_mean'}, '2': {}} with error ValueError('Number of labels=90595 does not match number of samples=7376995')") in model 481 in generation 14: GLS
+Model Number: 482 with model GLS in generation 14 of 20
+2025-06-16 04:24:58 [INFO] - Model Number: 483 with model GLS in generation 14 of 20
+2025-06-16 04:25:05 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (240,1) (48,1) ') in model 483 in generation 14: GLS
+Model Number: 484 with model GLS in generation 14 of 20
+2025-06-16 04:25:05 [INFO] - Model Number: 485 with model GLS in generation 14 of 20
+2025-06-16 04:30:44 [INFO] - Model Number: 486 with model GLS in generation 14 of 20
+2025-06-16 04:36:11 [INFO] - Model Number: 487 with model GLS in generation 14 of 20
+2025-06-16 04:36:28 [INFO] - Model Number: 488 with model GLS in generation 14 of 20
+2025-06-16 04:36:40 [INFO] - Model Number: 489 with model GLS in generation 14 of 20
+2025-06-16 04:42:26 [INFO] - Model Number: 490 with model GLS in generation 14 of 20
+2025-06-16 04:42:37 [INFO] - Model Number: 491 with model GLS in generation 14 of 20
+2025-06-16 04:42:37 [INFO] - Model Number: 492 with model LastValueNaive in generation 14 of 20
+2025-06-16 04:42:37 [INFO] - Model Number: 493 with model LastValueNaive in generation 14 of 20
+2025-06-16 04:42:39 [INFO] - Model Number: 494 with model SeasonalityMotif in generation 14 of 20
+2025-06-16 04:42:40 [INFO] - Model Number: 495 with model SeasonalityMotif in generation 14 of 20
+2025-06-16 04:42:41 [INFO] - Model Number: 496 with model SeasonalityMotif in generation 14 of 20
+2025-06-16 04:42:43 [INFO] - Model Number: 497 with model SeasonalityMotif in generation 14 of 20
+2025-06-16 05:33:03 [INFO] - Model Number: 498 with model SeasonalityMotif in generation 14 of 20
+2025-06-16 05:33:05 [INFO] - Model Number: 499 with model SeasonalityMotif in generation 14 of 20
+2025-06-16 05:33:07 [INFO] - Model Number: 500 with model SeasonalityMotif in generation 14 of 20
+2025-06-16 05:33:08 [INFO] - Model Number: 501 with model SeasonalityMotif in generation 14 of 20
+2025-06-16 05:33:08 [INFO] - Model Number: 502 with model LastValueNaive in generation 14 of 20
+Template Eval Error: Exception("Transformer BTCD failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'regression_model': {'model': 'LinearRegression', 'model_params': {}}, 'max_lags': 1}, '2': {'center': 'median'}, '3': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}} with error ValueError('BTCD only works on multivarate series')") in model 502 in generation 14: LastValueNaive
+Model Number: 503 with model LastValueNaive in generation 14 of 20
+2025-06-16 05:33:08 [INFO] - Model Number: 504 with model LastValueNaive in generation 14 of 20
+2025-06-16 05:33:08 [INFO] - Model Number: 505 with model LastValueNaive in generation 14 of 20
+2025-06-16 05:33:23 [INFO] - New Generation: 15 of 20
+Model Number: 506 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:23 [INFO] - Model Number: 507 with model SectionalMotif in generation 15 of 20
+Template Eval Error: ValueError("regression_type=='User' but no future_regressor supplied") in model 507 in generation 15: SectionalMotif
+Model Number: 508 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:23 [INFO] - Model Number: 509 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:23 [INFO] - Model Number: 510 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:23 [INFO] - Model Number: 511 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:23 [INFO] - Model Number: 512 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:24 [INFO] - Model Number: 513 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:24 [INFO] - Model Number: 514 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:24 [INFO] - Model Number: 515 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:24 [INFO] - Model Number: 516 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:24 [INFO] - Model Number: 517 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:33:24 [INFO] - Model Number: 518 with model SectionalMotif in generation 15 of 20
+2025-06-16 05:38:41 [INFO] - Model Number: 519 with model GLS in generation 15 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params mean {'0': {'decomp_type': 'STL', 'part': 'trend', 'seasonal': 363}, '1': {'rows': 1, 'lag': 1, 'method': 'multiplicative', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '2': {}, '3': {'rows': 28, 'displacement_rows': 1, 'quantile': 1.0, 'decay_span': 3}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 519 in generation 15: GLS
+Model Number: 520 with model GLS in generation 15 of 20
+2025-06-16 05:39:16 [INFO] - Model Number: 521 with model GLS in generation 15 of 20
+2025-06-16 05:44:52 [INFO] - Model Number: 522 with model GLS in generation 15 of 20
+2025-06-16 05:45:32 [INFO] - Model Number: 523 with model GLS in generation 15 of 20
+2025-06-16 05:45:57 [INFO] - Model Number: 524 with model GLS in generation 15 of 20
+2025-06-16 05:51:38 [INFO] - Model Number: 525 with model GLS in generation 15 of 20
+2025-06-16 05:51:38 [INFO] - Model Number: 526 with model GLS in generation 15 of 20
+2025-06-16 05:57:06 [INFO] - Model Number: 527 with model GLS in generation 15 of 20
+2025-06-16 05:58:38 [INFO] - Model Number: 528 with model GLS in generation 15 of 20
+2025-06-16 05:58:38 [INFO] - Model Number: 529 with model LastValueNaive in generation 15 of 20
+2025-06-16 05:59:00 [INFO] - Model Number: 530 with model LastValueNaive in generation 15 of 20
+Template Eval Error: Exception("Transformer DatepartRegression failed on fit from params rolling_mean_24 {'0': {'method': 100}, '1': {}, '2': {'rows': 6}, '3': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 1, 'threshold_method': 'mean'}, '4': {'regression_model': {'model': 'ElasticNetwork', 'model_params': {'size': 64, 'l1': 0.01, 'l2': 0.0, 'epochs': 10, 'batch_size': 16, 'optimizer': 'rmsprop', 'loss': 'Huber'}}, 'datepart_method': ['dayofweek', [365.25, 14]], 'polynomial_degree': None, 'transform_dict': None, 'holiday_countries_used': False, 'lags': None, 'forward_lags': None}} with error IndexError('tuple index out of range')") in model 530 in generation 15: LastValueNaive
+Model Number: 531 with model SeasonalityMotif in generation 15 of 20
+Template Eval Error: Exception('Transformer FIRFilter failed on fit from params linear {\'0\': {\'numtaps\': 64, \'cutoff_hz\': 0.5, \'window\': [\'exponential\', None, 1.0], \'sampling_frequency\': 10, \'on_transform\': True, \'on_inverse\': False, \'bounds_only\': False}, \'1\': {\'lag_1\': 12, \'method\': 5}, \'2\': {\'rows\': 1, \'lag\': 1, \'method\': \'additive\', \'strength\': 1.0, \'first_value_only\': False, \'threshold\': 10, \'threshold_method\': \'mean\'}, \'3\': {\'rows\': 1, \'lag\': 1, \'method\': \'additive\', \'strength\': 1.0, \'first_value_only\': False, \'threshold\': 10, \'threshold_method\': \'mean\'}} with error ValueError("<class \'list\'> as window type is not supported.")') in model 531 in generation 15: SeasonalityMotif
+Model Number: 532 with model SeasonalityMotif in generation 15 of 20
+Template Eval Error: Exception('Transformer FIRFilter failed on fit from params zero {\'0\': {\'numtaps\': 64, \'cutoff_hz\': 0.5, \'window\': [\'exponential\', None, 1.0], \'sampling_frequency\': 10, \'on_transform\': True, \'on_inverse\': False, \'bounds_only\': False}, \'1\': {}, \'2\': {\'cutoff\': 0.4, \'reverse\': False, \'on_transform\': True, \'on_inverse\': False}, \'3\': {\'rows\': 1, \'lag\': 84, \'method\': \'additive\', \'strength\': 1.0, \'first_value_only\': False, \'threshold\': 10, \'threshold_method\': \'max\'}} with error ValueError("<class \'list\'> as window type is not supported.")') in model 532 in generation 15: SeasonalityMotif
+Model Number: 533 with model SeasonalityMotif in generation 15 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params rolling_mean {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': None, 'threshold_method': 'mean'}, '2': {'decomp_type': 'STL', 'part': 'trend', 'seasonal': 7}, '3': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '4': {'span': 12}, '5': {'part': 'trend', 'lamb': 104976000000}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 533 in generation 15: SeasonalityMotif
+Model Number: 534 with model SeasonalityMotif in generation 15 of 20
+2025-06-16 05:59:00 [INFO] - Model Number: 535 with model SeasonalityMotif in generation 15 of 20
+2025-06-16 05:59:00 [INFO] - Model Number: 536 with model SeasonalityMotif in generation 15 of 20
+2025-06-16 05:59:00 [INFO] - Model Number: 537 with model LastValueNaive in generation 15 of 20
+2025-06-16 05:59:17 [INFO] - Model Number: 538 with model LastValueNaive in generation 15 of 20
+2025-06-16 05:59:17 [INFO] - New Generation: 16 of 20
+Model Number: 539 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 540 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 541 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 542 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 543 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 544 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 545 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 546 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 547 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 548 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 549 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 550 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:18 [INFO] - Model Number: 551 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:19 [INFO] - Model Number: 552 with model SectionalMotif in generation 16 of 20
+2025-06-16 05:59:19 [INFO] - Model Number: 553 with model SectionalMotif in generation 16 of 20
+2025-06-16 06:02:44 [INFO] - Model Number: 554 with model GLS in generation 16 of 20
+2025-06-16 06:02:53 [INFO] - Model Number: 555 with model GLS in generation 16 of 20
+2025-06-16 06:08:10 [INFO] - Model Number: 556 with model GLS in generation 16 of 20
+2025-06-16 06:13:16 [INFO] - Model Number: 557 with model GLS in generation 16 of 20
+2025-06-16 06:18:53 [INFO] - Model Number: 558 with model GLS in generation 16 of 20
+Template Eval Error: ValueError('zero-size array to reduction operation maximum which has no identity') in model 558 in generation 16: GLS
+Model Number: 559 with model GLS in generation 16 of 20
+2025-06-16 06:23:48 [INFO] - Model Number: 560 with model GLS in generation 16 of 20
+2025-06-16 06:29:24 [INFO] - Model Number: 561 with model GLS in generation 16 of 20
+2025-06-16 06:34:43 [INFO] - Model Number: 562 with model GLS in generation 16 of 20
+2025-06-16 06:34:55 [INFO] - Model Number: 563 with model GLS in generation 16 of 20
+2025-06-16 06:45:30 [INFO] - Model Number: 564 with model GLS in generation 16 of 20
+2025-06-16 06:51:32 [INFO] - Model Number: 565 with model GLS in generation 16 of 20
+2025-06-16 06:51:34 [INFO] - Model Number: 566 with model SeasonalityMotif in generation 16 of 20
+2025-06-16 06:51:49 [INFO] - Model Number: 567 with model SeasonalityMotif in generation 16 of 20
+2025-06-16 06:51:49 [INFO] - Model Number: 568 with model LastValueNaive in generation 16 of 20
+2025-06-16 06:51:49 [INFO] - Model Number: 569 with model LastValueNaive in generation 16 of 20
+2025-06-16 06:52:02 [INFO] - Model Number: 570 with model LastValueNaive in generation 16 of 20
+2025-06-16 06:52:14 [INFO] - Model Number: 571 with model LastValueNaive in generation 16 of 20
+2025-06-16 06:52:14 [INFO] - Model Number: 572 with model SeasonalityMotif in generation 16 of 20
+2025-06-16 06:52:17 [INFO] - Model Number: 573 with model SeasonalityMotif in generation 16 of 20
+2025-06-16 06:52:18 [INFO] - Model Number: 574 with model SeasonalityMotif in generation 16 of 20
+2025-06-16 06:52:52 [INFO] - Model Number: 575 with model SeasonalityMotif in generation 16 of 20
+2025-06-16 06:52:53 [INFO] - Model Number: 576 with model SeasonalityMotif in generation 16 of 20
+2025-06-16 06:52:53 [INFO] - Model Number: 577 with model LastValueNaive in generation 16 of 20
+2025-06-16 06:52:53 [INFO] - Model Number: 578 with model LastValueNaive in generation 16 of 20
+2025-06-16 06:52:53 [INFO] - New Generation: 17 of 20
+Model Number: 579 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:52:53 [INFO] - Model Number: 580 with model SectionalMotif in generation 17 of 20
+Template Eval Error: ValueError("regression_type=='User' but no future_regressor supplied") in model 580 in generation 17: SectionalMotif
+Model Number: 581 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:52:54 [INFO] - Model Number: 582 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:52:54 [INFO] - Model Number: 583 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:52:54 [INFO] - Model Number: 584 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:53:10 [INFO] - Model Number: 585 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:53:10 [INFO] - Model Number: 586 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:53:10 [INFO] - Model Number: 587 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:53:10 [INFO] - Model Number: 588 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:57:04 [INFO] - Model Number: 589 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:57:04 [INFO] - Model Number: 590 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:57:04 [INFO] - Model Number: 591 with model SectionalMotif in generation 17 of 20
+2025-06-16 06:57:04 [INFO] - Model Number: 592 with model SectionalMotif in generation 17 of 20
+2025-06-16 07:02:53 [INFO] - Model Number: 593 with model GLS in generation 17 of 20
+2025-06-16 07:08:16 [INFO] - Model Number: 594 with model GLS in generation 17 of 20
+2025-06-16 07:08:16 [INFO] - Model Number: 595 with model GLS in generation 17 of 20
+2025-06-16 07:13:00 [INFO] - Model Number: 596 with model GLS in generation 17 of 20
+2025-06-16 07:19:13 [INFO] - Model Number: 597 with model GLS in generation 17 of 20
+2025-06-16 07:26:11 [INFO] - Model Number: 598 with model GLS in generation 17 of 20
+2025-06-16 07:26:48 [INFO] - Model Number: 599 with model GLS in generation 17 of 20
+2025-06-16 07:36:19 [INFO] - Model Number: 600 with model GLS in generation 17 of 20
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+2025-05-13 11:29:15
+Template Eval Error: ValueError('Model GLS returned improper forecast_length. Returned: 42 and requested: 48') in model 600 in generation 17: GLS
+Model Number: 601 with model GLS in generation 17 of 20
+2025-06-16 07:42:09 [INFO] - Model Number: 602 with model GLS in generation 17 of 20
+2025-06-16 07:42:28 [INFO] - Model Number: 603 with model GLS in generation 17 of 20
+2025-06-16 07:42:36 [INFO] - Model Number: 604 with model GLS in generation 17 of 20
+2025-06-16 07:42:43 [INFO] - Model Number: 605 with model SeasonalityMotif in generation 17 of 20
+2025-06-16 07:42:44 [INFO] - Model Number: 606 with model SeasonalityMotif in generation 17 of 20
+2025-06-16 07:42:44 [INFO] - Model Number: 607 with model LastValueNaive in generation 17 of 20
+Template Eval Error: Exception("Transformer STLFilter failed on fit from params ffill {'0': {}, '1': {'decomp_type': 'seasonal_decompose', 'part': 'trend'}, '2': {}} with error ValueError('freq S not understood. Please report if you think this is in error.')") in model 607 in generation 17: LastValueNaive
+Model Number: 608 with model LastValueNaive in generation 17 of 20
+Template Eval Error: Exception('Transformer PCA failed on fit from params ffill {\'0\': {\'whiten\': True, \'n_components\': 10}, \'1\': {\'decomp_type\': \'seasonal_decompose\', \'part\': \'trend\'}, \'2\': {}, \'3\': {\'rows\': 1, \'lag\': 1, \'method\': \'additive\', \'strength\': 1.0, \'first_value_only\': False, \'threshold\': None, \'threshold_method\': \'mean\'}} with error ValueError("n_components=10 must be between 0 and min(n_samples, n_features)=1 with svd_solver=\'covariance_eigh\'")') in model 608 in generation 17: LastValueNaive
+Model Number: 609 with model LastValueNaive in generation 17 of 20
+2025-06-16 07:42:44 [INFO] - Model Number: 610 with model LastValueNaive in generation 17 of 20
+2025-06-16 07:42:45 [INFO] - Model Number: 611 with model SeasonalityMotif in generation 17 of 20
+2025-06-16 07:42:46 [INFO] - Model Number: 612 with model SeasonalityMotif in generation 17 of 20
+2025-06-16 07:43:00 [INFO] - Model Number: 613 with model SeasonalityMotif in generation 17 of 20
+2025-06-16 07:43:00 [INFO] - Model Number: 614 with model SeasonalityMotif in generation 17 of 20
+2025-06-16 07:43:15 [INFO] - Model Number: 615 with model SeasonalityMotif in generation 17 of 20
+2025-06-16 07:43:15 [INFO] - Model Number: 616 with model LastValueNaive in generation 17 of 20
+2025-06-16 07:43:21 [INFO] - Model Number: 617 with model LastValueNaive in generation 17 of 20
+Template Eval Error: Exception("Transformer Detrend failed on fit from params ffill {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'model': 'Linear', 'phi': 1, 'window': None, 'transform_dict': {'fillna': None, 'transformations': {'0': 'AnomalyRemoval'}, 'transformation_params': {'0': {'method': 'zscore', 'transform_dict': {'transformations': {'0': 'DatepartRegression'}, 'transformation_params': {'0': {'datepart_method': 'simple_3', 'regression_model': {'model': 'ElasticNet', 'model_params': {}}}}}, 'method_params': {'distribution': 'uniform', 'alpha': 0.05}}}}}, '2': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '3': {'method': 'clip', 'std_threshold': 3.5, 'fillna': None}} with error ValueError('Input y contains NaN.')") in model 617 in generation 17: LastValueNaive
+Model Number: 618 with model LastValueNaive in generation 17 of 20
+2025-06-16 07:43:21 [INFO] - New Generation: 18 of 20
+Model Number: 619 with model SectionalMotif in generation 18 of 20
+2025-06-16 07:43:21 [INFO] - Model Number: 620 with model SectionalMotif in generation 18 of 20
+2025-06-16 07:43:21 [INFO] - Model Number: 621 with model SectionalMotif in generation 18 of 20
+2025-06-16 07:43:21 [INFO] - Model Number: 622 with model SectionalMotif in generation 18 of 20
+2025-06-16 07:44:21 [INFO] - Model Number: 623 with model SectionalMotif in generation 18 of 20
+2025-06-16 07:44:21 [INFO] - Model Number: 624 with model SectionalMotif in generation 18 of 20
+2025-06-16 07:44:22 [INFO] - Model Number: 625 with model SectionalMotif in generation 18 of 20
+2025-06-16 07:44:22 [INFO] - Model Number: 626 with model SectionalMotif in generation 18 of 20
+2025-06-16 07:44:22 [INFO] - Model Number: 627 with model SectionalMotif in generation 18 of 20
+2025-06-16 07:44:22 [INFO] - Model Number: 628 with model SectionalMotif in generation 18 of 20
+2025-06-16 08:39:19 [INFO] - Model Number: 629 with model SectionalMotif in generation 18 of 20
+2025-06-16 08:39:19 [INFO] - Model Number: 630 with model SectionalMotif in generation 18 of 20
+2025-06-16 08:39:19 [INFO] - Model Number: 631 with model SectionalMotif in generation 18 of 20
+2025-06-16 08:51:52 [INFO] - Model Number: 632 with model GLS in generation 18 of 20
+2025-06-16 09:04:27 [INFO] - Model Number: 633 with model GLS in generation 18 of 20
+2025-06-16 09:11:21 [INFO] - Model Number: 634 with model GLS in generation 18 of 20
+2025-06-16 09:17:56 [INFO] - Model Number: 635 with model GLS in generation 18 of 20
+2025-06-16 09:24:54 [INFO] - Model Number: 636 with model GLS in generation 18 of 20
+2025-06-16 09:32:17 [INFO] - Model Number: 637 with model GLS in generation 18 of 20
+2025-06-16 09:39:14 [INFO] - Model Number: 638 with model GLS in generation 18 of 20
+2025-06-16 09:45:58 [INFO] - Model Number: 639 with model GLS in generation 18 of 20
+2025-06-16 09:58:03 [INFO] - Model Number: 640 with model GLS in generation 18 of 20
+2025-06-16 11:01:35 [INFO] - Model Number: 641 with model GLS in generation 18 of 20
+2025-06-16 11:07:32 [INFO] - Model Number: 642 with model GLS in generation 18 of 20
+2025-06-16 11:14:45 [INFO] - Model Number: 643 with model GLS in generation 18 of 20
+2025-06-16 11:14:50 [INFO] - Model Number: 644 with model SeasonalityMotif in generation 18 of 20
+2025-06-16 11:14:51 [INFO] - Model Number: 645 with model SeasonalityMotif in generation 18 of 20
+2025-06-16 11:14:52 [INFO] - Model Number: 646 with model LastValueNaive in generation 18 of 20
+2025-06-16 11:14:52 [INFO] - Model Number: 647 with model LastValueNaive in generation 18 of 20
+2025-06-16 11:14:52 [INFO] - Model Number: 648 with model LastValueNaive in generation 18 of 20
+2025-06-16 11:14:52 [INFO] - Model Number: 649 with model LastValueNaive in generation 18 of 20
+2025-06-16 11:14:54 [INFO] - Model Number: 650 with model SeasonalityMotif in generation 18 of 20
+2025-06-16 11:19:22 [INFO] - Model Number: 651 with model SeasonalityMotif in generation 18 of 20
+2025-06-16 11:19:23 [INFO] - Model Number: 652 with model SeasonalityMotif in generation 18 of 20
+2025-06-16 11:19:29 [INFO] - Model Number: 653 with model SeasonalityMotif in generation 18 of 20
+2025-06-16 11:19:30 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (336,1) (48,1) ') in model 653 in generation 18: SeasonalityMotif
+Model Number: 654 with model LastValueNaive in generation 18 of 20
+2025-06-16 11:19:30 [INFO] - Model Number: 655 with model LastValueNaive in generation 18 of 20
+2025-06-16 12:11:10 [INFO] - New Generation: 19 of 20
+Model Number: 656 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:12:38 [INFO] - Model Number: 657 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:12:39 [INFO] - Model Number: 658 with model SectionalMotif in generation 19 of 20
+ValueError('zero-size array to reduction operation minimum which has no identity')
+Template Eval Error: Exception("Transformer DatepartRegression failed on fit from params rolling_mean_24 {'0': {'rolling_window': 90, 'n_tails': 0.05, 'n_future': 0.2, 'method': 'median', 'macro_micro': False}, '1': {'lag_1': 12, 'method': 5}, '2': {'regression_model': {'model': 'DecisionTree', 'model_params': {'max_depth': None, 'min_samples_split': 1.0}}, 'datepart_method': ['weekdayofmonth', 'common_fourier'], 'polynomial_degree': None, 'transform_dict': {'fillna': 'ffill', 'transformations': {'0': 'cffilter'}, 'transformation_params': {'0': {}}}, 'holiday_countries_used': False, 'lags': None, 'forward_lags': 1}, '3': {'rows': 84, 'lag': 7, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 1, 'threshold_method': 'max'}, '4': {'method': 'clip', 'std_threshold': 3, 'fillna': None}} with error Exception('Transformer cffilter failed on fit')") in model 658 in generation 19: SectionalMotif
+Model Number: 659 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:12:39 [INFO] - Model Number: 660 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:14:06 [INFO] - Model Number: 661 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:15:15 [INFO] - Model Number: 662 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:15:15 [INFO] - Model Number: 663 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:15:16 [INFO] - Model Number: 664 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:16:16 [INFO] - Model Number: 665 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:16:16 [INFO] - Model Number: 666 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:17:16 [INFO] - Model Number: 667 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:18:18 [INFO] - Model Number: 668 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:18:18 [INFO] - Model Number: 669 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:18:18 [INFO] - Model Number: 670 with model SectionalMotif in generation 19 of 20
+2025-06-16 12:30:02 [INFO] - Model Number: 671 with model GLS in generation 19 of 20
+2025-06-16 12:35:59 [INFO] - Model Number: 672 with model GLS in generation 19 of 20
+2025-06-16 12:43:37 [INFO] - Model Number: 673 with model GLS in generation 19 of 20
+2025-06-16 13:03:31 [INFO] - Model Number: 674 with model GLS in generation 19 of 20
+2025-06-16 13:10:30 [INFO] - Model Number: 675 with model GLS in generation 19 of 20
+2025-06-16 13:18:03 [INFO] - Model Number: 676 with model GLS in generation 19 of 20
+2025-06-16 13:29:01 [INFO] - Model Number: 677 with model GLS in generation 19 of 20
+2025-06-16 13:41:00 [INFO] - Model Number: 678 with model GLS in generation 19 of 20
+2025-06-16 13:55:45 [INFO] - Model Number: 679 with model GLS in generation 19 of 20
+2025-06-16 14:06:07 [INFO] - Model Number: 680 with model GLS in generation 19 of 20
+SVD did not converge, attempting more robust approach...
+Template Eval Error: Exception("Transformer KalmanSmoothing failed on fit from params zero {'0': {'constraint_method': 'last_window', 'constraint_direction': 'upper', 'constraint_regularization': 1.0, 'constraint_value': {'window': 10, 'threshold': 0.2}, 'bounds_only': True, 'fillna': None}, '1': {'decimals': 0, 'on_transform': True, 'on_inverse': True}, '2': {'model_name': 'factor', 'state_transition': [[1, 1, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 1, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1]], 'process_noise': [[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0]], 'observation_model': [[1, 0, 0, 0, 0, 0]], 'observation_noise': 0.04, 'em_iter': 10, 'on_transform': True, 'on_inverse': False}, '3': {'rows': 28, 'displacement_rows': 1, 'quantile': 1.0, 'decay_span': 3}, '4': {'model_name': 'randomly generated_original', 'state_transition': [[1, 0, 0, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]], 'process_noise': [[0.04, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]], 'observation_model': [[1, 1, 0, 0]], 'observation_noise': 1.0, 'em_iter': None, 'on_transform': True, 'on_inverse': False}} with error LinAlgError('SVD did not converge')") in model 680 in generation 19: GLS
+Model Number: 681 with model GLS in generation 19 of 20
+2025-06-16 15:40:23 [INFO] - Model Number: 682 with model SeasonalityMotif in generation 19 of 20
+2025-06-16 15:40:29 [INFO] - Model Number: 683 with model SeasonalityMotif in generation 19 of 20
+2025-06-16 15:40:29 [INFO] - Model Number: 684 with model LastValueNaive in generation 19 of 20
+2025-06-16 15:40:29 [INFO] - Model Number: 685 with model LastValueNaive in generation 19 of 20
+2025-06-16 15:40:29 [INFO] - Model Number: 686 with model LastValueNaive in generation 19 of 20
+2025-06-16 15:40:29 [INFO] - Model Number: 687 with model LastValueNaive in generation 19 of 20
+2025-06-16 15:41:16 [INFO] - Model Number: 688 with model LastValueNaive in generation 19 of 20
+2025-06-16 15:41:16 [INFO] - Model Number: 689 with model LastValueNaive in generation 19 of 20
+2025-06-16 15:41:18 [INFO] - Model Number: 690 with model SeasonalityMotif in generation 19 of 20
+2025-06-16 15:41:20 [INFO] - Model Number: 691 with model SeasonalityMotif in generation 19 of 20
+2025-06-16 15:41:21 [INFO] - Model Number: 692 with model SeasonalityMotif in generation 19 of 20
+2025-06-16 15:42:10 [INFO] - Model Number: 693 with model SeasonalityMotif in generation 19 of 20
+Template Eval Error: ValueError('Model SeasonalityMotif returned NaN for one or more series. fail_on_forecast_nan=True') in model 693 in generation 19: SeasonalityMotif
+Model Number: 694 with model LastValueNaive in generation 19 of 20
+2025-06-16 15:42:10 [INFO] - Model Number: 695 with model LastValueNaive in generation 19 of 20
+2025-06-16 15:42:11 [INFO] - New Generation: 20 of 20
+Model Number: 696 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:42:11 [INFO] - Model Number: 697 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:42:11 [INFO] - Model Number: 698 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:42:11 [INFO] - Model Number: 699 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:42:57 [INFO] - Model Number: 700 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:43:48 [INFO] - Model Number: 701 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:43:48 [INFO] - Model Number: 702 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:43:48 [INFO] - Model Number: 703 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:43:48 [INFO] - Model Number: 704 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:43:48 [INFO] - Model Number: 705 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:43:48 [INFO] - Model Number: 706 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:43:48 [INFO] - Model Number: 707 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:43:48 [INFO] - Model Number: 708 with model SectionalMotif in generation 20 of 20
+Template Eval Error: Exception("Transformer Cointegration failed on fit from params fake_date {'0': {'det_order': 0, 'k_ar_diff': 1}} with error ValueError('Coint only works on multivarate series')") in model 708 in generation 20: SectionalMotif
+Model Number: 709 with model SectionalMotif in generation 20 of 20
+2025-06-16 15:52:18 [INFO] - Model Number: 710 with model GLS in generation 20 of 20
+2025-06-16 17:58:16 [INFO] - Model Number: 711 with model GLS in generation 20 of 20
+2025-06-16 18:07:24 [INFO] - Template Eval Error: ValueError('operands could not be broadcast together with shapes (96,1) (48,1) ') in model 711 in generation 20: GLS
+Model Number: 712 with model GLS in generation 20 of 20
+2025-06-16 18:15:40 [INFO] - Model Number: 713 with model GLS in generation 20 of 20
+2025-06-16 18:22:32 [INFO] - Model Number: 714 with model GLS in generation 20 of 20
+2025-06-16 18:27:35 [INFO] - Model Number: 715 with model GLS in generation 20 of 20
+2025-06-16 18:30:00 [INFO] - Model Number: 716 with model GLS in generation 20 of 20
+2025-06-16 18:39:29 [INFO] - Model Number: 717 with model GLS in generation 20 of 20
+2025-06-16 18:46:43 [INFO] - Model Number: 718 with model GLS in generation 20 of 20
+2025-06-16 19:01:50 [INFO] - Model Number: 719 with model GLS in generation 20 of 20
+2025-06-16 19:01:59 [INFO] - Model Number: 720 with model SeasonalityMotif in generation 20 of 20
+2025-06-16 19:04:03 [INFO] - Model Number: 721 with model SeasonalityMotif in generation 20 of 20
+2025-06-16 19:05:03 [INFO] - Model Number: 722 with model LastValueNaive in generation 20 of 20
+2025-06-16 19:05:03 [INFO] - Model Number: 723 with model LastValueNaive in generation 20 of 20
+2025-06-16 19:06:06 [INFO] - Model Number: 724 with model LastValueNaive in generation 20 of 20
+2025-06-16 19:06:07 [INFO] - Model Number: 725 with model LastValueNaive in generation 20 of 20
+2025-06-16 19:07:30 [INFO] - Model Number: 726 with model LastValueNaive in generation 20 of 20
+2025-06-16 19:08:29 [INFO] - Model Number: 727 with model LastValueNaive in generation 20 of 20
+2025-06-16 19:09:56 [INFO] - Model Number: 728 with model LastValueNaive in generation 20 of 20
+2025-06-16 19:10:01 [INFO] - Model Number: 729 with model SeasonalityMotif in generation 20 of 20
+2025-06-16 19:10:02 [INFO] - Model Number: 730 with model LastValueNaive in generation 20 of 20
+2025-06-16 19:10:03 [INFO] - Model Number: 731 with model SeasonalityMotif in generation 20 of 20
+2025-06-16 19:11:07 [INFO] - Model Number: 732 with model SeasonalityMotif in generation 20 of 20
+2025-06-16 19:12:03 [INFO] - Model Number: 733 with model SeasonalityMotif in generation 20 of 20
+2025-06-16 19:13:03 [INFO] - Validation Round: 1
+Model Number: 1 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:55 [INFO] - 📈 1 - SectionalMotif with avg smape 30.36: 
+Model Number: 2 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:55 [INFO] - 📈 2 - SectionalMotif with avg smape 23.72: 
+Model Number: 3 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:55 [INFO] - 📈 3 - SectionalMotif with avg smape 19.55: 
+Model Number: 4 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:55 [INFO] - 4 - SectionalMotif with avg smape 19.78: 
+Model Number: 5 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:55 [INFO] - 5 - SectionalMotif with avg smape 19.78: 
+Model Number: 6 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:56 [INFO] - 📈 6 - SectionalMotif with avg smape 16.06: 
+Model Number: 7 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:56 [INFO] - 7 - SectionalMotif with avg smape 16.06: 
+Model Number: 8 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:56 [INFO] - 8 - SectionalMotif with avg smape 16.06: 
+Model Number: 9 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:56 [INFO] - 9 - SectionalMotif with avg smape 16.06: 
+Model Number: 10 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:56 [INFO] - 10 - SectionalMotif with avg smape 16.06: 
+Model Number: 11 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:13:56 [INFO] - 11 - SectionalMotif with avg smape 16.06: 
+Model Number: 12 of 48 with model SectionalMotif for Validation 1
+2025-06-16 19:21:15 [INFO] - 12 - SectionalMotif with avg smape 16.06: 
+Model Number: 13 of 48 with model GLS for Validation 1
+2025-06-16 19:31:43 [INFO] - 13 - GLS with avg smape 23.89: 
+Model Number: 14 of 48 with model GLS for Validation 1
+2025-06-16 19:42:29 [INFO] - 14 - GLS with avg smape 23.15: 
+Model Number: 15 of 48 with model GLS for Validation 1
+2025-06-16 19:51:04 [INFO] - 15 - GLS with avg smape 23.15: 
+Model Number: 16 of 48 with model GLS for Validation 1
+2025-06-16 20:08:37 [INFO] - 16 - GLS with avg smape 24.88: 
+Model Number: 17 of 48 with model GLS for Validation 1
+2025-06-16 20:18:49 [INFO] - 17 - GLS with avg smape 23.15: 
+Model Number: 18 of 48 with model GLS for Validation 1
+2025-06-16 20:25:54 [INFO] - 18 - GLS with avg smape 23.15: 
+Model Number: 19 of 48 with model GLS for Validation 1
+2025-06-16 20:33:33 [INFO] - 19 - GLS with avg smape 23.15: 
+Model Number: 20 of 48 with model GLS for Validation 1
+2025-06-16 20:41:23 [INFO] - 20 - GLS with avg smape 23.15: 
+Model Number: 21 of 48 with model GLS for Validation 1
+2025-06-16 20:48:21 [INFO] - 21 - GLS with avg smape 23.15: 
+Model Number: 22 of 48 with model GLS for Validation 1
+2025-06-16 20:56:11 [INFO] - 22 - GLS with avg smape 23.89: 
+Model Number: 23 of 48 with model GLS for Validation 1
+2025-06-16 20:56:56 [INFO] - 23 - GLS with avg smape 23.89: 
+Model Number: 24 of 48 with model GLS for Validation 1
+2025-06-16 20:57:58 [INFO] - 24 - GLS with avg smape 24.07: 
+Model Number: 25 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:57:58 [INFO] - 25 - SeasonalityMotif with avg smape 39.98: 
+Model Number: 26 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:57:58 [INFO] - 26 - LastValueNaive with avg smape 62.26: 
+Model Number: 27 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:57:59 [INFO] - 27 - LastValueNaive with avg smape 33.52: 
+Model Number: 28 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:57:59 [INFO] - 28 - LastValueNaive with avg smape 41.1: 
+Model Number: 29 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:57:59 [INFO] - 29 - LastValueNaive with avg smape 32.37: 
+Model Number: 30 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:57:59 [INFO] - 30 - LastValueNaive with avg smape 26.68: 
+Model Number: 31 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:58:00 [INFO] - 31 - LastValueNaive with avg smape 26.68: 
+Model Number: 32 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:00 [INFO] - 32 - SeasonalityMotif with avg smape 34.67: 
+Model Number: 33 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:58:02 [INFO] - 33 - LastValueNaive with avg smape 25.61: 
+Model Number: 34 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:03 [INFO] - 34 - SeasonalityMotif with avg smape 36.98: 
+Model Number: 35 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:07 [INFO] - 35 - SeasonalityMotif with avg smape 37.03: 
+Model Number: 36 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:10 [INFO] - 36 - SeasonalityMotif with avg smape 35.33: 
+Model Number: 37 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:13 [INFO] - 37 - SeasonalityMotif with avg smape 35.42: 
+Model Number: 38 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:15 [INFO] - 38 - SeasonalityMotif with avg smape 35.42: 
+Model Number: 39 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:19 [INFO] - 39 - SeasonalityMotif with avg smape 35.29: 
+Model Number: 40 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:21 [INFO] - 40 - SeasonalityMotif with avg smape 35.29: 
+Model Number: 41 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:41 [INFO] - 41 - SeasonalityMotif with avg smape 35.29: 
+Model Number: 42 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:41 [INFO] - 📈 42 - SeasonalityMotif with avg smape 15.95: 
+Model Number: 43 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:58:41 [INFO] - 43 - LastValueNaive with avg smape 16.64: 
+Model Number: 44 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:58:41 [INFO] - 44 - LastValueNaive with avg smape 16.64: 
+Model Number: 45 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:58:41 [INFO] - 45 - LastValueNaive with avg smape 16.64: 
+Model Number: 46 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:58:46 [INFO] - 📈 46 - LastValueNaive with avg smape 13.83: 
+Model Number: 47 of 48 with model SeasonalityMotif for Validation 1
+2025-06-16 20:58:46 [INFO] - 47 - SeasonalityMotif with avg smape 35.24: 
+Model Number: 48 of 48 with model LastValueNaive for Validation 1
+2025-06-16 20:59:36 [INFO] - 48 - LastValueNaive with avg smape 16.19: 
+Validation Round: 2
+Model Number: 1 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 📈 1 - SectionalMotif with avg smape 24.96: 
+Model Number: 2 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 2 - SectionalMotif with avg smape 30.35: 
+Model Number: 3 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 3 - SectionalMotif with avg smape 29.82: 
+Model Number: 4 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 4 - SectionalMotif with avg smape 31.78: 
+Model Number: 5 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 5 - SectionalMotif with avg smape 31.78: 
+Model Number: 6 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 6 - SectionalMotif with avg smape 31.25: 
+Model Number: 7 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 7 - SectionalMotif with avg smape 31.25: 
+Model Number: 8 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 8 - SectionalMotif with avg smape 31.25: 
+Model Number: 9 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 9 - SectionalMotif with avg smape 31.25: 
+Model Number: 10 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 10 - SectionalMotif with avg smape 31.25: 
+Model Number: 11 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:00:22 [INFO] - 11 - SectionalMotif with avg smape 31.25: 
+Model Number: 12 of 48 with model SectionalMotif for Validation 2
+2025-06-16 21:06:19 [INFO] - 12 - SectionalMotif with avg smape 31.25: 
+Model Number: 13 of 48 with model GLS for Validation 2
+2025-06-16 21:13:31 [INFO] - 📈 13 - GLS with avg smape 18.35: 
+Model Number: 14 of 48 with model GLS for Validation 2
+2025-06-16 21:20:32 [INFO] - 📈 14 - GLS with avg smape 17.94: 
+Model Number: 15 of 48 with model GLS for Validation 2
+2025-06-16 21:26:05 [INFO] - 15 - GLS with avg smape 17.94: 
+Model Number: 16 of 48 with model GLS for Validation 2
+2025-06-16 21:37:51 [INFO] - 16 - GLS with avg smape 19.11: 
+Model Number: 17 of 48 with model GLS for Validation 2
+2025-06-16 21:44:26 [INFO] - 17 - GLS with avg smape 17.94: 
+Model Number: 18 of 48 with model GLS for Validation 2
+2025-06-16 21:53:30 [INFO] - 18 - GLS with avg smape 17.94: 
+Model Number: 19 of 48 with model GLS for Validation 2
+2025-06-16 22:00:46 [INFO] - 19 - GLS with avg smape 17.94: 
+Model Number: 20 of 48 with model GLS for Validation 2
+2025-06-16 22:08:17 [INFO] - 20 - GLS with avg smape 17.94: 
+Model Number: 21 of 48 with model GLS for Validation 2
+2025-06-16 22:17:57 [INFO] - 21 - GLS with avg smape 17.94: 
+Model Number: 22 of 48 with model GLS for Validation 2
+2025-06-16 22:30:46 [INFO] - 22 - GLS with avg smape 18.35: 
+Model Number: 23 of 48 with model GLS for Validation 2
+2025-06-16 22:32:13 [INFO] - 23 - GLS with avg smape 18.35: 
+Model Number: 24 of 48 with model GLS for Validation 2
+2025-06-16 22:33:01 [INFO] - 24 - GLS with avg smape 18.72: 
+Model Number: 25 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:02 [INFO] - 25 - SeasonalityMotif with avg smape 128.94: 
+Model Number: 26 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:02 [INFO] - 26 - LastValueNaive with avg smape 71.53: 
+Model Number: 27 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:03 [INFO] - 27 - LastValueNaive with avg smape 38.03: 
+Model Number: 28 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:03 [INFO] - 28 - LastValueNaive with avg smape 67.08: 
+Model Number: 29 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:04 [INFO] - 29 - LastValueNaive with avg smape 36.75: 
+Model Number: 30 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:04 [INFO] - 30 - LastValueNaive with avg smape 34.51: 
+Model Number: 31 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:06 [INFO] - 31 - LastValueNaive with avg smape 34.51: 
+Model Number: 32 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:06 [INFO] - 32 - SeasonalityMotif with avg smape 37.98: 
+Model Number: 33 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:09 [INFO] - 33 - LastValueNaive with avg smape 33.23: 
+Model Number: 34 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:10 [INFO] - 34 - SeasonalityMotif with avg smape 34.9: 
+Model Number: 35 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:34 [INFO] - 35 - SeasonalityMotif with avg smape 34.9: 
+Model Number: 36 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:36 [INFO] - 36 - SeasonalityMotif with avg smape 37.95: 
+Model Number: 37 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:37 [INFO] - 37 - SeasonalityMotif with avg smape 38.04: 
+Model Number: 38 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:39 [INFO] - 38 - SeasonalityMotif with avg smape 38.04: 
+Model Number: 39 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:41 [INFO] - 39 - SeasonalityMotif with avg smape 38.04: 
+Model Number: 40 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:43 [INFO] - 40 - SeasonalityMotif with avg smape 38.04: 
+Model Number: 41 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:46 [INFO] - 41 - SeasonalityMotif with avg smape 38.04: 
+Model Number: 42 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:46 [INFO] - 42 - SeasonalityMotif with avg smape 45.13: 
+Model Number: 43 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:46 [INFO] - 43 - LastValueNaive with avg smape 33.3: 
+Model Number: 44 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:47 [INFO] - 44 - LastValueNaive with avg smape 33.3: 
+Model Number: 45 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:47 [INFO] - 45 - LastValueNaive with avg smape 33.3: 
+Model Number: 46 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:48 [INFO] - 📈 46 - LastValueNaive with avg smape 17.61: 
+Model Number: 47 of 48 with model SeasonalityMotif for Validation 2
+2025-06-16 22:33:48 [INFO] - 47 - SeasonalityMotif with avg smape 37.13: 
+Model Number: 48 of 48 with model LastValueNaive for Validation 2
+2025-06-16 22:33:58 [INFO] - 48 - LastValueNaive with avg smape 28.14: 
+Horizontal Ensemble Generation Error: ValueError('Template input does not match expected for models')
+Validation Round: 0
+Model Number: 1 of 1 with model Ensemble for Validation 1 horizontal ensemble validations
+2025-06-16 23:24:55 [INFO] - 📈 1 - Ensemble with avg smape 17.98: 
+📈 2 - Ensemble with avg smape 17.93: 
+3 - Ensemble with avg smape 18.0: 
+4 - Ensemble with avg smape 18.58: 
+5 - Ensemble with avg smape 21.87: 
+6 - Ensemble with avg smape 27.34: 
+Template Eval Error: Exception("Transformer HistoricValues failed on fit from params fake_date {'0': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '1': {'window': 28}} with error KeyError('2')") in model 6 in generation 0: Ensemble
+Validation Round: 1
+Model Number: 1 of 1 with model Ensemble for Validation 2 horizontal ensemble validations
+2025-06-16 23:56:01 [INFO] - 📈 1 - Ensemble with avg smape 18.66: 
+2 - Ensemble with avg smape 18.74: 
+3 - Ensemble with avg smape 21.64: 
+📈 4 - Ensemble with avg smape 15.71: 
+5 - Ensemble with avg smape 22.76: 
+6 - Ensemble with avg smape 42.83: 
+Template Eval Error: Exception("Transformer HistoricValues failed on fit from params fake_date {'0': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '1': {'window': 28}} with error KeyError('2')") in model 6 in generation 0: Ensemble
+Validation Round: 2
+Model Number: 1 of 1 with model Ensemble for Validation 3 horizontal ensemble validations
+2025-06-17 00:22:25 [INFO] - 📈 1 - Ensemble with avg smape 21.41: 
+📈 2 - Ensemble with avg smape 21.34: 
+📈 3 - Ensemble with avg smape 13.99: 
+4 - Ensemble with avg smape 19.74: 
+5 - Ensemble with avg smape 17.67: 
+6 - Ensemble with avg smape 35.8: 
+Template Eval Error: Exception("Transformer HistoricValues failed on fit from params fake_date {'0': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '1': {'window': 28}} with error KeyError('2')") in model 6 in generation 0: Ensemble
+2025-06-17 00:22:25 [INFO] - ✅ Тонкая настройка завершена!
+2025-06-17 00:22:25 [INFO] - 🎯 Лучшая модель после тюнинга: Ensemble
+2025-06-17 00:22:25 [INFO] - 📋 Параметры модели: {'model_name': 'Mosaic', 'model_count': 12, 'smoothing_window': None, 'model_metric': 'mosaic-weighted-0-20', 'models': {'f127810c6a34194b5f6976c96e908c9b': {'Model': 'SeasonalityMotif', 'ModelParameters': '{"window": 7, "point_method": "median", "distance_metric": "mae", "k": 10, "datepart_method": "common_fourier", "independent": true}', 'TransformationParameters': '{"fillna": "ffill_mean_biased", "transformations": {"0": "RollingMeanTransformer", "1": "AlignLastValue", "2": "LevelShiftTransformer"}, "transformation_params": {"0": {"fixed": true, "window": 28, "macro_micro": false, "center": false}, "1": {"rows": 2, "lag": 7, "method": "additive", "strength": 1.0, "first_value_only": false, "threshold": null, "threshold_method": "max"}, "2": {"window_size": 90, "alpha": 1.0, "grouping_forward_limit": 4, "max_level_shifts": 5, "alignment": "average"}}}'}, '615415aa0cb066684a3efba67a1172f0': {'Model': 'GLS', 'ModelParameters': '{"changepoint_spacing": 60, "changepoint_distance_end": null, "constant": true}', 'TransformationParameters': '{"fillna": "zero", "transformations": {"0": "Constraint", "1": "SeasonalDifference", "2": "FFTDecomposition", "3": "AlignLastDiff", "4": "HistoricValues", "5": "KalmanSmoothing"}, "transformation_params": {"0": {"constraint_method": "last_window", "constraint_direction": "upper", "constraint_regularization": 1.0, "constraint_value": {"window": 10, "threshold": 0.2}, "bounds_only": true, "fillna": null}, "1": {"lag_1": 12, "method": 5}, "2": {"n_harmonics": 10, "detrend": "quadratic"}, "3": {"rows": 28, "displacement_rows": 1, "quantile": 1.0, "decay_span": 3}, "4": {"window": null}, "5": {"model_name": "randomly generated_original", "state_transition": [[1, 0, 0, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]], "process_noise": [[0.04, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]], "observation_model": [[1, 1, 0, 0]], "observation_noise": 1.0, "em_iter": null, "on_transform": true, "on_inverse": false}}}'}, 'bca8ec99a76e541d9cd42fe2653f3edc': {'Model': 'LastValueNaive', 'ModelParameters': '{}', 'TransformationParameters': '{"fillna": "linear", "transformations": {"0": "ClipOutliers", "1": "SeasonalDifference", "2": "AlignLastValue"}, "transformation_params": {"0": {"method": "remove", "std_threshold": 2, "fillna": "rolling_mean_24"}, "1": {"lag_1": 12, "method": 5}, "2": {"rows": 1, "lag": 1, "method": "additive", "strength": 1.0, "first_value_only": false, "threshold": 10, "threshold_method": "mean"}}}'}, 'd1753fc3617607fa39fbe1a88f37869a': {'Model': 'LastValueNaive', 'ModelParameters': '{}', 'TransformationParameters': '{"fillna": "ffill", "transformations": {"0": "AlignLastValue", "1": "bkfilter", "2": "ClipOutliers"}, "transformation_params": {"0": {"rows": 84, "lag": 1, "method": "additive", "strength": 1.0, "first_value_only": false, "threshold": null, "threshold_method": "mean"}, "1": {}, "2": {"method": "clip", "std_threshold": 3, "fillna": null}}}'}, '7547def6acb1bd482086c654731a67ba': {'Model': 'SectionalMotif', 'ModelParameters': '{"window": 5, "point_method": "midhinge", "distance_metric": "sqeuclidean", "include_differenced": true, "k": 5, "stride_size": 1, "regression_type": null, "comparison_transformation": null, "combination_transformation": null}', 'TransformationParameters': '{"fillna": "ffill", "transformations": {"0": "Constraint", "1": "SeasonalDifference", "2": "AlignLastValue"}, "transformation_params": {"0": {"constraint_method": "last_window", "constraint_direction": "upper", "constraint_regularization": 1.0, "constraint_value": {"window": 10, "threshold": 0.2}, "bounds_only": true, "fillna": null}, "1": {"lag_1": 12, "method": 5}, "2": {"rows": 1, "lag": 1, "method": "additive", "strength": 1.0, "first_value_only": false, "threshold": 10, "threshold_method": "mean"}}}'}, '02be3c33166eff3e145e198c4a626536': {'Model': 'GLS', 'ModelParameters': '{"changepoint_spacing": 180, "changepoint_distance_end": 6, "constant": true}', 'TransformationParameters': '{"fillna": "zero", "transformations": {"0": "Constraint", "1": "KalmanSmoothing", "2": "FFTDecomposition", "3": "AlignLastDiff", "4": "KalmanSmoothing"}, "transformation_params": {"0": {"constraint_method": "last_window", "constraint_direction": "upper", "constraint_regularization": 1.0, "constraint_value": {"window": 10, "threshold": 0.2}, "bounds_only": true, "fillna": null}, "1": {"model_name": "local_linear_trend_ets_aan", "state_transition": [[1, 1], [0, 1]], "process_noise": [[0.7, 0.0], [0.0, 0.6]], "observation_model": [[1, 0]], "observation_noise": 0.05, "em_iter": null, "on_transform": true, "on_inverse": false}, "2": {"n_harmonics": 10, "detrend": "quadratic"}, "3": {"rows": 28, "displacement_rows": 1, "quantile": 1.0, "decay_span": 3}, "4": {"model_name": "randomly generated_original", "state_transition": [[1, 0, 0, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]], "process_noise": [[0.04, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]], "observation_model": [[1, 1, 0, 0]], "observation_noise": 1.0, "em_iter": null, "on_transform": true, "on_inverse": false}}}'}, 'e2951e3663504d432d1c6220a4136e4c': {'Model': 'SectionalMotif', 'ModelParameters': '{"window": 5, "point_method": "mean", "distance_metric": "sqeuclidean", "include_differenced": true, "k": 5, "stride_size": 1, "regression_type": null, "comparison_transformation": {"fillna": "zero", "transformations": {"0": "bkfilter"}, "transformation_params": {"0": {}}}, "combination_transformation": null}', 'TransformationParameters': '{"fillna": "ffill", "transformations": {"0": "Constraint", "1": "SeasonalDifference", "2": "AlignLastValue", "3": "AlignLastValue"}, "transformation_params": {"0": {"constraint_method": "last_window", "constraint_direction": "upper", "constraint_regularization": 1.0, "constraint_value": {"window": 10, "threshold": 0.2}, "bounds_only": true, "fillna": null}, "1": {"lag_1": 12, "method": 5}, "2": {"rows": 1, "lag": 1, "method": "additive", "strength": 1.0, "first_value_only": false, "threshold": 10, "threshold_method": "mean"}, "3": {"rows": 1, "lag": 1, "method": "additive", "strength": 1.0, "first_value_only": false, "threshold": 10, "threshold_method": "mean"}}}'}, 'f5e4cecb596c4bd0618b4424e93bc03b': {'Model': 'GLS', 'ModelParameters': '{"changepoint_spacing": 60, "changepoint_distance_end": 60, "constant": true}', 'TransformationParameters': '{"fillna": "zero", "transformations": {"0": "Constraint", "1": "KalmanSmoothing", "2": "FFTDecomposition", "3": "AlignLastDiff", "4": "HistoricValues", "5": "KalmanSmoothing"}, "transformation_params": {"0": {"constraint_method": "last_window", "constraint_direction": "upper", "constraint_regularization": 1.0, "constraint_value": {"window": 10, "threshold": 0.2}, "bounds_only": true, "fillna": null}, "1": {"model_name": "local_linear_trend_ets_aan", "state_transition": [[1, 1], [0, 1]], "process_noise": [[0.7, 0.0], [0.0, 0.6]], "observation_model": [[1, 0]], "observation_noise": 0.05, "em_iter": null, "on_transform": true, "on_inverse": false}, "2": {"n_harmonics": 10, "detrend": "quadratic"}, "3": {"rows": 28, "displacement_rows": 1, "quantile": 1.0, "decay_span": 3}, "4": {"window": null}, "5": {"model_name": "randomly generated_original", "state_transition": [[1, 0, 0, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]], "process_noise": [[0.04, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]], "observation_model": [[1, 1, 0, 0]], "observation_noise": 1.0, "em_iter": null, "on_transform": true, "on_inverse": false}}}'}, 'b04d883990c3c62011ee0aacbca549a0': {'Model': 'GLS', 'ModelParameters': '{"changepoint_spacing": 60, "changepoint_distance_end": null, "constant": true}', 'TransformationParameters': '{"fillna": "zero", "transformations": {"0": "Constraint", "1": "SeasonalDifference", "2": "FFTDecomposition", "3": "AlignLastDiff", "4": "KalmanSmoothing", "5": "KalmanSmoothing"}, "transformation_params": {"0": {"constraint_method": "last_window", "constraint_direction": "upper", "constraint_regularization": 1.0, "constraint_value": {"window": 10, "threshold": 0.2}, "bounds_only": true, "fillna": null}, "1": {"lag_1": 12, "method": 5}, "2": {"n_harmonics": 10, "detrend": "quadratic"}, "3": {"rows": 28, "displacement_rows": 1, "quantile": 1.0, "decay_span": 3}, "4": {"model_name": "randomly generated_original", "state_transition": [[1, 0, 0, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]], "process_noise": [[0.04, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]], "observation_model": [[1, 1, 0, 0]], "observation_noise": 1.0, "em_iter": null, "on_transform": true, "on_inverse": false}, "5": {"model_name": "randomly generated_original", "state_transition": [[1, 0, 0, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]], "process_noise": [[0.04, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]], "observation_model": [[1, 1, 0, 0]], "observation_noise": 1.0, "em_iter": null, "on_transform": true, "on_inverse": false}}}'}, '14994ae3849d364fbed460eb6869d824': {'Model': 'SectionalMotif', 'ModelParameters': '{"window": 5, "point_method": "mean", "distance_metric": "sqeuclidean", "include_differenced": true, "k": 5, "stride_size": 1, "regression_type": null, "comparison_transformation": {"fillna": "ffill", "transformations": {"0": "MinMaxScaler", "1": "AlignLastDiff"}, "transformation_params": {"0": {}, "1": {"rows": 90, "displacement_rows": 1, "quantile": 0.9, "decay_span": null}}}, "combination_transformation": null}', 'TransformationParameters': '{"fillna": "rolling_mean_24", "transformations": {"0": "ChangepointDetrend", "1": "SeasonalDifference"}, "transformation_params": {"0": {"model": "Linear", "changepoint_spacing": 90, "changepoint_distance_end": 5040, "datepart_method": null}, "1": {"lag_1": 12, "method": 5}}}'}, 'e0563859fe219eb0b523f97f9927b24b': {'Model': 'GLS', 'ModelParameters': '{"changepoint_spacing": 60, "changepoint_distance_end": null, "constant": true}', 'TransformationParameters': '{"fillna": "zero", "transformations": {"0": "Constraint", "1": "KalmanSmoothing", "2": "FFTDecomposition", "3": "AlignLastDiff", "4": "KalmanSmoothing", "5": "KalmanSmoothing"}, "transformation_params": {"0": {"constraint_method": "last_window", "constraint_direction": "upper", "constraint_regularization": 1.0, "constraint_value": {"window": 10, "threshold": 0.2}, "bounds_only": true, "fillna": null}, "1": {"model_name": "local_linear_trend_ets_aan", "state_transition": [[1, 1], [0, 1]], "process_noise": [[0.7, 0.0], [0.0, 0.6]], "observation_model": [[1, 0]], "observation_noise": 0.05, "em_iter": null, "on_transform": true, "on_inverse": false}, "2": {"n_harmonics": 10, "detrend": "quadratic"}, "3": {"rows": 28, "displacement_rows": 1, "quantile": 1.0, "decay_span": 3}, "4": {"model_name": "randomly generated_original", "state_transition": [[1, 0, 0, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]], "process_noise": [[0.04, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]], "observation_model": [[1, 1, 0, 0]], "observation_noise": 1.0, "em_iter": null, "on_transform": true, "on_inverse": false}, "5": {"model_name": "randomly generated_original", "state_transition": [[1, 0, 0, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]], "process_noise": [[0.04, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]], "observation_model": [[1, 1, 0, 0]], "observation_noise": 1.0, "em_iter": null, "on_transform": true, "on_inverse": false}}}'}, 'bdcbbf731ccc4da139cdc9f020c7b64e': {'Model': 'LastValueNaive', 'ModelParameters': '{}', 'TransformationParameters': '{"fillna": "ffill", "transformations": {"0": "ClipOutliers", "1": "DiffSmoother", "2": "CenterLastValue"}, "transformation_params": {"0": {"method": "remove", "std_threshold": 2, "fillna": "rolling_mean_24"}, "1": {"method": "rolling_zscore", "method_params": {"distribution": "norm", "alpha": 0.05, "rolling_periods": 300, "center": true}, "transform_dict": null, "reverse_alignment": true, "isolated_only": true, "fillna": "ffill"}, "2": {"rows": 2}}}'}}, 'series': {'common_delayp90': {'0': 'e2951e3663504d432d1c6220a4136e4c', '1': 'f127810c6a34194b5f6976c96e908c9b', '2': 'f127810c6a34194b5f6976c96e908c9b', '3': 'd1753fc3617607fa39fbe1a88f37869a', '4': 'd1753fc3617607fa39fbe1a88f37869a', '5': 'd1753fc3617607fa39fbe1a88f37869a', '6': 'd1753fc3617607fa39fbe1a88f37869a', '7': 'd1753fc3617607fa39fbe1a88f37869a', '8': 'd1753fc3617607fa39fbe1a88f37869a', '9': 'd1753fc3617607fa39fbe1a88f37869a', '10': 'd1753fc3617607fa39fbe1a88f37869a', '11': 'd1753fc3617607fa39fbe1a88f37869a', '12': 'd1753fc3617607fa39fbe1a88f37869a', '13': 'bca8ec99a76e541d9cd42fe2653f3edc', '14': '14994ae3849d364fbed460eb6869d824', '15': '02be3c33166eff3e145e198c4a626536', '16': '02be3c33166eff3e145e198c4a626536', '17': '14994ae3849d364fbed460eb6869d824', '18': 'b04d883990c3c62011ee0aacbca549a0', '19': 'e0563859fe219eb0b523f97f9927b24b', '20': 'b04d883990c3c62011ee0aacbca549a0', '21': 'e0563859fe219eb0b523f97f9927b24b', '22': 'd1753fc3617607fa39fbe1a88f37869a', '23': '7547def6acb1bd482086c654731a67ba', '24': '7547def6acb1bd482086c654731a67ba', '25': '7547def6acb1bd482086c654731a67ba', '26': 'e0563859fe219eb0b523f97f9927b24b', '27': 'd1753fc3617607fa39fbe1a88f37869a', '28': 'd1753fc3617607fa39fbe1a88f37869a', '29': 'b04d883990c3c62011ee0aacbca549a0', '30': '615415aa0cb066684a3efba67a1172f0', '31': 'f5e4cecb596c4bd0618b4424e93bc03b', '32': 'f127810c6a34194b5f6976c96e908c9b', '33': 'f5e4cecb596c4bd0618b4424e93bc03b', '34': 'f5e4cecb596c4bd0618b4424e93bc03b', '35': 'e0563859fe219eb0b523f97f9927b24b', '36': 'e0563859fe219eb0b523f97f9927b24b', '37': 'e0563859fe219eb0b523f97f9927b24b', '38': 'd1753fc3617607fa39fbe1a88f37869a', '39': 'd1753fc3617607fa39fbe1a88f37869a', '40': 'd1753fc3617607fa39fbe1a88f37869a', '41': 'd1753fc3617607fa39fbe1a88f37869a', '42': 'd1753fc3617607fa39fbe1a88f37869a', '43': 'd1753fc3617607fa39fbe1a88f37869a', '44': 'bdcbbf731ccc4da139cdc9f020c7b64e', '45': '7547def6acb1bd482086c654731a67ba', '46': '7547def6acb1bd482086c654731a67ba', '47': 'f127810c6a34194b5f6976c96e908c9b'}}}
+2025-06-17 00:22:25 [INFO] - 🔮 Делаю прогноз после тюнинга...
+2025-06-17 00:51:01 [INFO] - ✅ Прогноз готов на 48 периодов
+2025-06-17 00:51:01 [INFO] - 📊 Статистика лучшей модели после тюнинга:
+2025-06-17 00:51:01 [INFO] -   SMAPE: 15.7150
+2025-06-17 00:51:01 [INFO] -   MAE: 549.7534
+2025-06-17 00:51:01 [INFO] -   RMSE: 627.5233
+2025-06-17 00:51:01 [INFO] -   SPL: 0.9762
+2025-06-17 00:51:08 [INFO] - 📊 График сохранен как forecast_common_delayp90.png
+2025-06-17 00:51:09 [INFO] - 💾 Прогноз после тюнинга сохранен в prometheus_forecast_tuned.csv
+2025-06-17 00:51:09 [INFO] - 💾 Шаблон тюнингованной модели сохранен в prometheus_autots_template_tuned.csv
+2025-06-17 00:51:09 [INFO] - 🎉 Тонкая настройка завершена успешно!

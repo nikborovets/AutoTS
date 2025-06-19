@@ -1,0 +1,197 @@
+2025-06-18 14:23:38 [INFO] - Система логирования настроена.
+2025-06-18 14:23:38 [INFO] - 🔄 Загружаю данные из Prometheus...
+2025-06-18 14:23:38 [INFO] - ✅ Загружено 90643 записей с 1 метриками: ['common_delayp90']
+2025-06-18 14:23:38 [INFO] - 🗓️ Период данных: 2025-04-27 18:00:30 - 2025-05-13 11:41:00
+2025-06-18 14:23:38 [INFO] - ⚙️ Настроена кросс-валидация TimeSeriesSplit с 5 сплитами и размером теста 48.
+2025-06-18 14:23:38 [INFO] - 
+==================================================
+2025-06-18 14:23:38 [INFO] - 🚀 Сплит 1/5
+2025-06-18 14:23:38 [INFO] -    Обучение: 90403 точек (2025-04-27 18:00:30 -> 2025-05-13 10:41:00)
+2025-06-18 14:23:38 [INFO] -    Тест:     48 точек (2025-05-13 10:41:15 -> 2025-05-13 10:53:00)
+2025-06-18 14:23:38 [INFO] - ==================================================
+2025-06-18 14:23:38 [INFO] - 📄 Импорт моделей из шаблона: prometheus_autots_template_tuned.csv
+2025-06-18 14:23:38 [INFO] - 🏋️ Обучаю модель на данных для обучения...
+2025-06-18 14:23:39 [INFO] - Data frequency is: 15s, used frequency is: 15s
+Model Number: 1 with model LastValueNaive in generation 0 of 0
+2025-06-18 14:23:39 [INFO] - Model Number: 2 with model LastValueNaive in generation 0 of 0
+2025-06-18 14:23:39 [INFO] - Model Number: 3 with model LastValueNaive in generation 0 of 0
+2025-06-18 14:23:41 [INFO] - Model Number: 4 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 14:23:45 [INFO] - Model Number: 5 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 14:31:26 [INFO] - Model Number: 6 with model GLS in generation 0 of 0
+2025-06-18 14:31:26 [INFO] - Model Number: 7 with model LastValueNaive in generation 0 of 0
+2025-06-18 14:31:26 [INFO] - Model Number: 8 with model SectionalMotif in generation 0 of 0
+2025-06-18 14:32:11 [INFO] - Model Number: 9 with model GLS in generation 0 of 0
+2025-06-18 14:32:11 [INFO] - Model Number: 10 with model SectionalMotif in generation 0 of 0
+2025-06-18 14:38:57 [INFO] - Model Number: 11 with model GLS in generation 0 of 0
+2025-06-18 14:46:15 [INFO] - Model Number: 12 with model GLS in generation 0 of 0
+2025-06-18 14:47:05 [INFO] - Model Number: 13 with model SectionalMotif in generation 0 of 0
+2025-06-18 14:54:07 [INFO] - Model Number: 14 with model GLS in generation 0 of 0
+2025-06-18 14:54:07 [INFO] - Model Number: 15 with model LastValueNaive in generation 0 of 0
+2025-06-18 14:54:07 [INFO] - 🔮 Делаю прогноз на тестовый период...
+2025-06-18 14:54:07 [INFO] - 📈 Оцениваю точность прогноза...
+2025-06-18 14:54:08 [INFO] - 
+==================================================
+2025-06-18 14:54:08 [INFO] - 🚀 Сплит 2/5
+2025-06-18 14:54:08 [INFO] -    Обучение: 90451 точек (2025-04-27 18:00:30 -> 2025-05-13 10:53:00)
+2025-06-18 14:54:08 [INFO] -    Тест:     48 точек (2025-05-13 10:53:15 -> 2025-05-13 11:05:00)
+2025-06-18 14:54:08 [INFO] - ==================================================
+2025-06-18 14:54:08 [INFO] - 📄 Импорт моделей из шаблона: prometheus_autots_template_tuned.csv
+2025-06-18 14:54:08 [INFO] - 🏋️ Обучаю модель на данных для обучения...
+2025-06-18 14:54:08 [INFO] - Data frequency is: 15s, used frequency is: 15s
+Model Number: 1 with model LastValueNaive in generation 0 of 0
+2025-06-18 14:54:08 [INFO] - Model Number: 2 with model LastValueNaive in generation 0 of 0
+2025-06-18 14:54:08 [INFO] - Model Number: 3 with model LastValueNaive in generation 0 of 0
+2025-06-18 14:54:09 [INFO] - Model Number: 4 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 14:54:12 [INFO] - Model Number: 5 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 15:00:50 [INFO] - Model Number: 6 with model GLS in generation 0 of 0
+2025-06-18 15:00:50 [INFO] - Model Number: 7 with model LastValueNaive in generation 0 of 0
+2025-06-18 15:00:50 [INFO] - Model Number: 8 with model SectionalMotif in generation 0 of 0
+2025-06-18 15:01:48 [INFO] - Model Number: 9 with model GLS in generation 0 of 0
+2025-06-18 15:01:48 [INFO] - Model Number: 10 with model SectionalMotif in generation 0 of 0
+2025-06-18 15:09:19 [INFO] - Model Number: 11 with model GLS in generation 0 of 0
+2025-06-18 15:16:57 [INFO] - Model Number: 12 with model GLS in generation 0 of 0
+2025-06-18 15:17:47 [INFO] - Model Number: 13 with model SectionalMotif in generation 0 of 0
+2025-06-18 15:25:49 [INFO] - Model Number: 14 with model GLS in generation 0 of 0
+2025-06-18 15:25:49 [INFO] - Model Number: 15 with model LastValueNaive in generation 0 of 0
+2025-06-18 15:25:49 [INFO] - 🔮 Делаю прогноз на тестовый период...
+2025-06-18 15:25:49 [INFO] - 📈 Оцениваю точность прогноза...
+2025-06-18 15:25:50 [INFO] - 
+==================================================
+2025-06-18 15:25:50 [INFO] - 🚀 Сплит 3/5
+2025-06-18 15:25:50 [INFO] -    Обучение: 90499 точек (2025-04-27 18:00:30 -> 2025-05-13 11:05:00)
+2025-06-18 15:25:50 [INFO] -    Тест:     48 точек (2025-05-13 11:05:15 -> 2025-05-13 11:17:00)
+2025-06-18 15:25:50 [INFO] - ==================================================
+2025-06-18 15:25:50 [INFO] - 📄 Импорт моделей из шаблона: prometheus_autots_template_tuned.csv
+2025-06-18 15:25:50 [INFO] - 🏋️ Обучаю модель на данных для обучения...
+2025-06-18 15:25:50 [INFO] - Data frequency is: 15s, used frequency is: 15s
+Model Number: 1 with model LastValueNaive in generation 0 of 0
+2025-06-18 15:25:50 [INFO] - Model Number: 2 with model LastValueNaive in generation 0 of 0
+2025-06-18 15:25:50 [INFO] - Model Number: 3 with model LastValueNaive in generation 0 of 0
+2025-06-18 15:25:52 [INFO] - Model Number: 4 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 15:25:55 [INFO] - Model Number: 5 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 15:32:54 [INFO] - Model Number: 6 with model GLS in generation 0 of 0
+2025-06-18 15:32:54 [INFO] - Model Number: 7 with model LastValueNaive in generation 0 of 0
+2025-06-18 15:32:54 [INFO] - Model Number: 8 with model SectionalMotif in generation 0 of 0
+2025-06-18 15:33:53 [INFO] - Model Number: 9 with model GLS in generation 0 of 0
+2025-06-18 15:33:53 [INFO] - Model Number: 10 with model SectionalMotif in generation 0 of 0
+2025-06-18 15:41:41 [INFO] - Model Number: 11 with model GLS in generation 0 of 0
+2025-06-18 15:49:55 [INFO] - Model Number: 12 with model GLS in generation 0 of 0
+2025-06-18 15:51:03 [INFO] - Model Number: 13 with model SectionalMotif in generation 0 of 0
+2025-06-18 15:58:52 [INFO] - Model Number: 14 with model GLS in generation 0 of 0
+2025-06-18 15:58:52 [INFO] - Model Number: 15 with model LastValueNaive in generation 0 of 0
+2025-06-18 15:58:52 [INFO] - 🔮 Делаю прогноз на тестовый период...
+2025-06-18 16:06:57 [INFO] - 📈 Оцениваю точность прогноза...
+2025-06-18 16:06:57 [INFO] - 
+==================================================
+2025-06-18 16:06:57 [INFO] - 🚀 Сплит 4/5
+2025-06-18 16:06:57 [INFO] -    Обучение: 90547 точек (2025-04-27 18:00:30 -> 2025-05-13 11:17:00)
+2025-06-18 16:06:57 [INFO] -    Тест:     48 точек (2025-05-13 11:17:15 -> 2025-05-13 11:29:00)
+2025-06-18 16:06:57 [INFO] - ==================================================
+2025-06-18 16:06:57 [INFO] - 📄 Импорт моделей из шаблона: prometheus_autots_template_tuned.csv
+2025-06-18 16:06:57 [INFO] - 🏋️ Обучаю модель на данных для обучения...
+2025-06-18 16:06:57 [INFO] - Data frequency is: 15s, used frequency is: 15s
+Model Number: 1 with model LastValueNaive in generation 0 of 0
+2025-06-18 16:06:57 [INFO] - Model Number: 2 with model LastValueNaive in generation 0 of 0
+2025-06-18 16:06:57 [INFO] - Model Number: 3 with model LastValueNaive in generation 0 of 0
+2025-06-18 16:06:58 [INFO] - Model Number: 4 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 16:07:01 [INFO] - Model Number: 5 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 16:14:07 [INFO] - Model Number: 6 with model GLS in generation 0 of 0
+2025-06-18 16:14:07 [INFO] - Model Number: 7 with model LastValueNaive in generation 0 of 0
+2025-06-18 16:14:07 [INFO] - Model Number: 8 with model SectionalMotif in generation 0 of 0
+2025-06-18 16:14:56 [INFO] - Model Number: 9 with model GLS in generation 0 of 0
+2025-06-18 16:14:56 [INFO] - Model Number: 10 with model SectionalMotif in generation 0 of 0
+2025-06-18 16:22:19 [INFO] - Model Number: 11 with model GLS in generation 0 of 0
+2025-06-18 16:29:29 [INFO] - Model Number: 12 with model GLS in generation 0 of 0
+2025-06-18 16:30:22 [INFO] - Model Number: 13 with model SectionalMotif in generation 0 of 0
+2025-06-18 16:38:06 [INFO] - Model Number: 14 with model GLS in generation 0 of 0
+2025-06-18 16:38:06 [INFO] - Model Number: 15 with model LastValueNaive in generation 0 of 0
+2025-06-18 16:38:06 [INFO] - 🔮 Делаю прогноз на тестовый период...
+2025-06-18 16:38:06 [INFO] - 📈 Оцениваю точность прогноза...
+2025-06-18 16:38:06 [INFO] - 
+==================================================
+2025-06-18 16:38:06 [INFO] - 🚀 Сплит 5/5
+2025-06-18 16:38:06 [INFO] -    Обучение: 90595 точек (2025-04-27 18:00:30 -> 2025-05-13 11:29:00)
+2025-06-18 16:38:06 [INFO] -    Тест:     48 точек (2025-05-13 11:29:15 -> 2025-05-13 11:41:00)
+2025-06-18 16:38:06 [INFO] - ==================================================
+2025-06-18 16:38:06 [INFO] - 📄 Импорт моделей из шаблона: prometheus_autots_template_tuned.csv
+2025-06-18 16:38:06 [INFO] - 🏋️ Обучаю модель на данных для обучения...
+2025-06-18 16:38:07 [INFO] - Data frequency is: 15s, used frequency is: 15s
+Model Number: 1 with model LastValueNaive in generation 0 of 0
+2025-06-18 16:38:07 [INFO] - Model Number: 2 with model LastValueNaive in generation 0 of 0
+2025-06-18 16:38:07 [INFO] - Model Number: 3 with model LastValueNaive in generation 0 of 0
+2025-06-18 16:38:08 [INFO] - Model Number: 4 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 16:38:11 [INFO] - Model Number: 5 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 16:45:49 [INFO] - Model Number: 6 with model GLS in generation 0 of 0
+2025-06-18 16:45:49 [INFO] - Model Number: 7 with model LastValueNaive in generation 0 of 0
+2025-06-18 16:45:49 [INFO] - Model Number: 8 with model SectionalMotif in generation 0 of 0
+2025-06-18 16:46:36 [INFO] - Model Number: 9 with model GLS in generation 0 of 0
+2025-06-18 16:46:36 [INFO] - Model Number: 10 with model SectionalMotif in generation 0 of 0
+2025-06-18 16:54:36 [INFO] - Model Number: 11 with model GLS in generation 0 of 0
+2025-06-18 17:01:54 [INFO] - Model Number: 12 with model GLS in generation 0 of 0
+2025-06-18 17:02:58 [INFO] - Model Number: 13 with model SectionalMotif in generation 0 of 0
+2025-06-18 17:10:46 [INFO] - Model Number: 14 with model GLS in generation 0 of 0
+2025-06-18 17:10:46 [INFO] - Model Number: 15 with model LastValueNaive in generation 0 of 0
+2025-06-18 17:10:46 [INFO] - 🔮 Делаю прогноз на тестовый период...
+2025-06-18 17:10:46 [INFO] - 📈 Оцениваю точность прогноза...
+2025-06-18 17:10:47 [INFO] - 
+==================================================
+2025-06-18 17:10:47 [INFO] - 🏆 Итоговые результаты кросс-валидации
+2025-06-18 17:10:47 [INFO] - ==================================================
+2025-06-18 17:10:47 [INFO] - 
+Средние метрики по сериям (AVG ± STD):
+
+2025-06-18 17:10:47 [INFO] - ➡️  containment:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 0.51 ± 0.26
+2025-06-18 17:10:47 [INFO] - ➡️  contour:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 0.52 ± 0.06
+2025-06-18 17:10:47 [INFO] - ➡️  custom:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 0.00 ± 0.00
+2025-06-18 17:10:47 [INFO] - ➡️  dwae:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 28.47 ± 13.63
+2025-06-18 17:10:47 [INFO] - ➡️  dwd:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 20.28 ± 8.51
+2025-06-18 17:10:47 [INFO] - ➡️  ewmae:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 2187.19 ± 707.66
+2025-06-18 17:10:47 [INFO] - ➡️  imle:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 191.04 ± 216.36
+2025-06-18 17:10:47 [INFO] - ➡️  made:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 1.16 ± 0.34
+2025-06-18 17:10:47 [INFO] - ➡️  mae:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 553.09 ± 219.06
+2025-06-18 17:10:47 [INFO] - ➡️  mage:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 553.09 ± 219.06
+2025-06-18 17:10:47 [INFO] - ➡️  mate:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 19400.32 ± 10469.69
+2025-06-18 17:10:47 [INFO] - ➡️  matse:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 0.12 ± 0.07
+2025-06-18 17:10:47 [INFO] - ➡️  maxe:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 1236.40 ± 350.25
+2025-06-18 17:10:47 [INFO] - ➡️  mle:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 368.00 ± 286.07
+2025-06-18 17:10:47 [INFO] - ➡️  mqae:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 454.93 ± 186.96
+2025-06-18 17:10:47 [INFO] - ➡️  oda:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 0.62 ± 0.20
+2025-06-18 17:10:47 [INFO] - ➡️  overestimate:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 8998.68 ± 10450.97
+2025-06-18 17:10:47 [INFO] - ➡️  rmse:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 645.80 ± 248.93
+2025-06-18 17:10:47 [INFO] - ➡️  smape:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 17.42 ± 6.53
+2025-06-18 17:10:47 [INFO] - ➡️  smoothness:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 3.62 ± 1.47
+2025-06-18 17:10:47 [INFO] - ➡️  spl:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 1.72 ± 0.89
+2025-06-18 17:10:47 [INFO] - ➡️  underestimate:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: -17549.78 ± 13798.53
+2025-06-18 17:10:47 [INFO] - ➡️  uwmse:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 2357.66 ± 1128.07
+2025-06-18 17:10:47 [INFO] - ➡️  wasserstein:
+2025-06-18 17:10:47 [INFO] -     common_delayp90: 46.01 ± 26.79
+2025-06-18 17:10:47 [INFO] - 
+------------------------------
+2025-06-18 17:10:47 [INFO] - 📊 Общие средние метрики по всем сериям:
+2025-06-18 17:10:47 [INFO] - common_delayp90    813.2
+2025-06-18 17:10:47 [INFO] - ------------------------------
+2025-06-18 17:10:47 [INFO] - 
+🎉 Кросс-валидация успешно завершена!

@@ -1,0 +1,90 @@
+2025-06-18 11:16:47 [INFO] - Система логирования настроена.
+2025-06-18 11:16:47 [INFO] - 🔄 Загружаю данные из Prometheus...
+2025-06-18 11:16:48 [INFO] - ✅ Загружено 90643 записей с 1 метриками: ['common_delayp90']
+2025-06-18 11:16:48 [INFO] - 🗓️ Период данных: 2025-04-27 18:00:30 - 2025-05-13 11:41:00
+2025-06-18 11:16:48 [INFO] - ⚙️ Настроена кросс-валидация TimeSeriesSplit с 5 сплитами и размером теста 48.
+2025-06-18 11:16:48 [INFO] - 
+==================================================
+2025-06-18 11:16:48 [INFO] - 🚀 Сплит 1/5
+2025-06-18 11:16:48 [INFO] -    Обучение: 90403 точек (2025-04-27 18:00:30 -> 2025-05-13 10:41:00)
+2025-06-18 11:16:48 [INFO] -    Тест:     48 точек (2025-05-13 10:41:15 -> 2025-05-13 10:53:00)
+2025-06-18 11:16:48 [INFO] - ==================================================
+2025-06-18 11:16:48 [INFO] - 📄 Импорт моделей из шаблона: prometheus_autots_template_tuned.csv
+2025-06-18 11:16:48 [INFO] - 🏋️ Обучаю модель на данных для обучения...
+2025-06-18 11:16:48 [INFO] - Data frequency is: 15s, used frequency is: 15s
+Model Number: 1 with model LastValueNaive in generation 0 of 0
+2025-06-18 11:16:48 [INFO] - Model Number: 2 with model LastValueNaive in generation 0 of 0
+2025-06-18 11:16:48 [INFO] - Model Number: 3 with model LastValueNaive in generation 0 of 0
+2025-06-18 11:16:49 [INFO] - Model Number: 4 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 11:16:53 [INFO] - Model Number: 5 with model SeasonalityMotif in generation 0 of 0
+2025-06-18 11:24:40 [INFO] - Model Number: 6 with model GLS in generation 0 of 0
+2025-06-18 11:24:40 [INFO] - Model Number: 7 with model LastValueNaive in generation 0 of 0
+2025-06-18 11:24:40 [INFO] - Model Number: 8 with model SectionalMotif in generation 0 of 0
+2025-06-18 11:25:37 [INFO] - Model Number: 9 with model GLS in generation 0 of 0
+2025-06-18 11:25:37 [INFO] - Model Number: 10 with model SectionalMotif in generation 0 of 0
+2025-06-18 11:33:16 [INFO] - Model Number: 11 with model GLS in generation 0 of 0
+2025-06-18 11:40:13 [INFO] - Model Number: 12 with model GLS in generation 0 of 0
+2025-06-18 11:41:12 [INFO] - Model Number: 13 with model SectionalMotif in generation 0 of 0
+2025-06-18 11:49:14 [INFO] - Model Number: 14 with model GLS in generation 0 of 0
+2025-06-18 11:49:14 [INFO] - Model Number: 15 with model LastValueNaive in generation 0 of 0
+2025-06-18 11:49:36 [INFO] - subsample ensembling failed with error: ValueError('empty range for randrange() (1, 1, 0)')
+Ensembling Error: AttributeError("'AutoTS' object has no attribute 'ensemble_templates'"): Traceback (most recent call last):
+  File "/home/borovets.av/kolya/AutoTS/autots/evaluator/auto_ts.py", line 1455, in fit
+    self.ensemble_templates,
+AttributeError: 'AutoTS' object has no attribute 'ensemble_templates'
+
+Horizontal Ensemble Generation Error: ValueError('Template input does not match expected for models')
+Validation Round: 0
+Model Number: 1 of 4 with model Ensemble for Validation 1 horizontal ensemble validations
+2025-06-18 11:58:09 [INFO] - 📈 1 - Ensemble with avg smape 11.22: 
+2 - Ensemble with avg smape 11.22: 
+3 - Ensemble with avg smape 21.62: 
+4 - Ensemble with avg smape 23.33: 
+5 - Ensemble with avg smape 18.69: 
+6 - Ensemble with avg smape 14.11: 
+Template Eval Error: Exception("Transformer HistoricValues failed on fit from params fake_date {'0': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '1': {'window': 28}} with error KeyError('2')") in model 6 in generation 0: Ensemble
+Model Number: 7 of 4 with model Ensemble for Validation 1 horizontal ensemble validations
+2025-06-18 12:13:10 [INFO] - 📈 7 - Ensemble with avg smape 9.91: 
+8 - Ensemble with avg smape 9.91: 
+9 - Ensemble with avg smape 20.16: 
+10 - Ensemble with avg smape 22.52: 
+11 - Ensemble with avg smape 18.57: 
+12 - Ensemble with avg smape 14.11: 
+Template Eval Error: Exception("Transformer HistoricValues failed on fit from params fake_date {'0': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '1': {'window': 28}} with error KeyError('2')") in model 12 in generation 0: Ensemble
+Model Number: 13 of 4 with model Ensemble for Validation 1 horizontal ensemble validations
+2025-06-18 12:21:48 [INFO] - 13 - Ensemble with avg smape 11.22: 
+14 - Ensemble with avg smape 11.22: 
+15 - Ensemble with avg smape 21.62: 
+16 - Ensemble with avg smape 23.33: 
+17 - Ensemble with avg smape 18.69: 
+18 - Ensemble with avg smape 14.11: 
+Template Eval Error: Exception("Transformer HistoricValues failed on fit from params fake_date {'0': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '1': {'window': 28}} with error KeyError('2')") in model 18 in generation 0: Ensemble
+Model Number: 19 of 4 with model Ensemble for Validation 1 horizontal ensemble validations
+2025-06-18 12:37:05 [INFO] - 19 - Ensemble with avg smape 20.29: 
+20 - Ensemble with avg smape 20.12: 
+21 - Ensemble with avg smape 25.12: 
+22 - Ensemble with avg smape 25.73: 
+23 - Ensemble with avg smape 18.97: 
+24 - Ensemble with avg smape 14.11: 
+Template Eval Error: Exception("Transformer HistoricValues failed on fit from params fake_date {'0': {'rows': 1, 'lag': 1, 'method': 'additive', 'strength': 1.0, 'first_value_only': False, 'threshold': 10, 'threshold_method': 'mean'}, '1': {'window': 28}} with error KeyError('2')") in model 24 in generation 0: Ensemble
+2025-06-18 12:37:05 [ERROR] - /home/borovets.av/kolya/AutoTS/autots/models/ensemble.py:1858: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  ).fillna(df_wide.mean())
+/home/borovets.av/kolya/AutoTS/autots/models/ensemble.py:1858: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  ).fillna(df_wide.mean())
+/home/borovets.av/kolya/AutoTS/autots/evaluator/auto_model.py:3068: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  validation_results.model_results = validation_results.model_results.replace(
+/home/borovets.av/kolya/AutoTS/autots/evaluator/auto_model.py:3068: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  validation_results.model_results = validation_results.model_results.replace(
+/home/borovets.av/kolya/AutoTS/autots/models/ensemble.py:1858: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  ).fillna(df_wide.mean())
+2025-06-18 12:37:05 [INFO] - 🔮 Делаю прогноз на тестовый период...
+2025-06-18 12:52:31 [INFO] - 📈 Оцениваю точность прогноза...
+2025-06-18 12:52:31 [ERROR] - ❌ Произошла критическая ошибка: 'PredictionObject' object has no attribute 'score'
+Traceback (most recent call last):
+  File "/home/borovets.av/kolya/AutoTS/timeseries_cv_autots.py", line 236, in main
+    """Основная функция для запуска."""
+  File "/home/borovets.av/kolya/AutoTS/timeseries_cv_autots.py", line 171, in run_timeseries_cv
+AttributeError: 'PredictionObject' object has no attribute 'score'
+
+
+
